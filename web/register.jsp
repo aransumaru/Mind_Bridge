@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,8 +13,11 @@
             <!-- Title section -->
             <div class="title">Đăng ký</div>
             <div class="content">
+                <c:if test="${not empty errorMessage}">
+                    <div class="error-message" style="color: red;">${errorMessage}</div>
+                </c:if>
                 <!-- Registration form -->
-                <form action="#" enctype="multipart/form-data"> <!-- Enctype added for file uploads -->
+                <form action="register" method="post" enctype="multipart/form-data"> 
                     <div class="user-details">
                         <!-- Input for Full Name -->
                         <div class="input-box">
@@ -38,17 +42,18 @@
                         <!-- Input for Date of Birth -->
                         <div class="input-box">
                             <span class="details">Ngày sinh</span>
-                            <input type="date" name="dateOfBirth" required>
+                            <input type="date" name="date_of_birth" required>
                         </div>
                         <!-- Input for Profile Image (File Upload) -->
                         <div class="input-box">
                             <span class="details">Ảnh đại diện</span>
-                            <input type="file" name="profileImage" accept="image/*">
+                            <input type="file" name="profile_image" accept="image/*" required> <!-- Added required attribute -->
                         </div>
                         <!-- Role selection (Dropdown) -->
                         <div class="input-box">
                             <span class="details">Role</span>
-                            <select name="role" required>
+                            <select name="role" required> <!-- Added required attribute -->
+                                <option value="">Chọn vai trò</option> <!-- Placeholder option -->
                                 <option value="Khách hàng">Khách hàng</option>
                                 <option value="Nhà điều trị tâm lý">Nhà điều trị tâm lý</option>
                             </select>
@@ -56,7 +61,7 @@
                     </div>
 
                     <!-- Gender selection -->
-                    <div class="gender-details">
+                    <div class="gender-details" required> <!-- Gender selection is already required -->
                         <input type="radio" name="gender" id="dot-1" value="Male" required>
                         <input type="radio" name="gender" id="dot-2" value="Female" required>
                         <input type="radio" name="gender" id="dot-3" value="Prefer not to say" required>
@@ -81,9 +86,9 @@
                     <div class="button">
                         <input type="submit" value="Register">
                     </div>
-                    
+
                     <div class="signup-link">
-                        Đã có tài khoản? <a href="register.html">Đăng nhập</a>
+                        Đã có tài khoản? <a href="login.html">Đăng nhập</a>
                     </div>
                 </form>
             </div>

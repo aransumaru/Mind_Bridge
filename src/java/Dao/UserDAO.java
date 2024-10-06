@@ -5,6 +5,7 @@
 package Dao;
 
 import Model.User;
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -20,7 +21,7 @@ public class UserDAO extends DBContext {
 
     public User checkLogin(String email, String password) throws SQLException {
         String sql = "SELECT * FROM User WHERE email = '?'";
-        try (PreparedStatement ps = connection.prepareStatement(sql)) {
+        try ( PreparedStatement ps = connection.prepareStatement(sql)) {
             ps.setString(1, email);
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
@@ -41,11 +42,11 @@ public class UserDAO extends DBContext {
         }
         return null;
     }
-        public List<User> getAllUsers() throws SQLException {
+
+    public List<User> getAllUsers() throws SQLException {
         List<User> users = new ArrayList<>();
         String sql = "SELECT * FROM [User]";
-        try (PreparedStatement ps = connection.prepareStatement(sql);
-             ResultSet rs = ps.executeQuery()) {
+        try ( PreparedStatement ps = connection.prepareStatement(sql);  ResultSet rs = ps.executeQuery()) {
             while (rs.next()) {
                 User user = new User();
                 user.setUserId(rs.getInt("user_id"));
@@ -61,24 +62,40 @@ public class UserDAO extends DBContext {
         }
         return users;
     }
-    
 
-public static void main(String[] args) {
-    UserDAO userDAO = new UserDAO();
-    
-    try {
-        // Gọi phương thức getAllUsers
-        List<User> users = userDAO.getAllUsers();
-        
-        // In danh sách người dùng
-        System.out.println("Danh sách người dùng:");
-        for (User user : users) {
-            System.out.println("ID: " + user.getUserId() + ", Email: " + user.getEmail() + ", Tên: " + user.getName() + ", Vai trò: " + user.getRole());
+    public boolean registerUser(User user) {
+        String sql = "INSERT INTO [User] (email, password, name, gender, date_of_birth, profile_image, role) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        try {
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1, user.getName());
+            ps.setString(2, user.getEmail());
+            ps.setString(3, user.getPassword());
+            ps.setString(4, user.getGender());
+            ps.setDate(5, new java.sql.Date(user.getDateOfBirth().getTime())); // Correct date mapping
+            ps.setString(6, user.getProfileImage());
+            ps.setString(7, user.getRole());
+            return ps.executeUpdate() > 0; // Returns true if at least one record is inserted
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
         }
-    } catch (SQLException e) {
-        System.out.println("Lỗi khi kết nối cơ sở dữ liệu: " + e.getMessage());
     }
-}
 
+    public static void main(String[] args) {
+        UserDAO userDAO = new UserDAO();
+
+        try {
+            // Gọi phương thức getAllUsers
+            List<User> users = userDAO.getAllUsers();
+
+            // In danh sách người dùng
+            System.out.println("Danh sách người dùng:");
+            for (User user : users) {
+                System.out.println("ID: " + user.getUserId() + ", Email: " + user.getEmail() + ", Tên: " + user.getName() + ", Vai trò: " + user.getRole());
+            }
+        } catch (SQLException e) {
+            System.out.println("Lỗi khi kết nối cơ sở dữ liệu: " + e.getMessage());
+        }
+    }
 
 }

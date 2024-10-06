@@ -7,9 +7,16 @@
         </group>
         <group name="Mind_Bridge">
             <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/index.html</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Dao/DBContext.java</file>
             <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/index_1.html</file>
             <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/login.html</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Model/User.java</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/nbproject/build-impl.xml</file>
             <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/index_1_1.html</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Dao/UserDAO.java</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Model/Answer.java</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Controller/RegisterServlet.java</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/register.jsp</file>
         </group>
     </open-files>
 </project-private>
