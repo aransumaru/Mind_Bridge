@@ -8,9 +8,9 @@ CREATE TABLE [User] (
     password VARCHAR(255) NOT NULL,
     name NVARCHAR(255),
     gender NVARCHAR(50),
-    date_of_birth DATE,
+    date_of_birth DATE, -- Change this to VARCHAR(10)
     profile_image VARCHAR(255),
-    role NVARCHAR(50) CHECK (role IN ('user', 'therapist')),
+    role NVARCHAR(50)
 );
 
 CREATE TABLE Therapist (
@@ -38,7 +38,7 @@ CREATE TABLE Resource (
     resource_id INT PRIMARY KEY IDENTITY(1,1),
     title NVARCHAR(255),
     description NVARCHAR(MAX),
-    content_type NVARCHAR(50) CHECK (content_type IN ('article', 'video', 'podcast')),
+    content_type NVARCHAR(50),
     url NVARCHAR(255),
     tags NVARCHAR(255),
     created_at DATETIME DEFAULT GETDATE(),
