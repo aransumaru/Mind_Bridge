@@ -53,6 +53,9 @@ public class RegisterServlet extends HttpServlet {
         }
         String role = request.getParameter("role");
         System.out.println("Role selected: " + role);
+        
+        String phone = request.getParameter("phone");
+        System.out.println("Phone: " + phone);
 
         // Handle profile image upload
         Part filePart = request.getPart("profile_image");
@@ -70,6 +73,7 @@ public class RegisterServlet extends HttpServlet {
         user.setDateOfBirth(dateOfBirth);
         user.setProfileImage(profileImagePath);
         user.setRole(role);
+        user.setPhone(phone);
 
         // Call DAO to register user
         UserDAO userDAO = new UserDAO();

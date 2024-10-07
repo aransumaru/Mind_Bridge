@@ -78,6 +78,7 @@
                         if (request.getSession().getAttribute("role") == null) {
                             out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng nhập</a>");
                         } else if ((String)request.getSession().getAttribute("role") != null) {
+                            out.println("<a href=\"user_profile.jsp\" class=\"btn btn-primary\">Profile</a>");
                             out.println("<a href=\"logout\" class=\"btn btn-primary\">Đăng xuất</a>");
                         }
                     %>
