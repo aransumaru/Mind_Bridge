@@ -21,6 +21,7 @@
 
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/profile.css">
     </head>
     <body>
         <div class="top py-1">
@@ -82,10 +83,11 @@
                         }
                     %>
                 </div>
+
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a href="index.jsp" class="nav-link">Trang Chủ</a></li>
-                        <li class="nav-item active"><a href="about.jsp" class="nav-link">Giới Thiệu</a></li>
+                        <li class="nav-item"><a href="about.jsp" class="nav-link">Giới Thiệu</a></li>
                         <li class="nav-item"><a href="team.jsp" class="nav-link">Đội Ngũ</a></li>
                         <li class="nav-item"><a href="services.jsp" class="nav-link">Dịch Vụ</a></li>
                         <li class="nav-item"><a href="department.jsp" class="nav-link">Gói Hội Viên</a></li>
@@ -102,170 +104,96 @@
             <div class="container">
                 <div class="row no-gutters slider-text align-items-end">
                     <div class="col-md-9 ftco-animate pb-5">
-                        <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.jsp">Trang chủ <i class="fa fa-chevron-right"></i></a></span> <span>Giới thiệu <i class="fa fa-chevron-right"></i></span></p>
-                        <h1 class="mb-0 bread">Giới thiệu về chúng tôi</h1>
+                        <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Trang chủ <i class="fa fa-chevron-right"></i></a></span></p>
+                        <h1 class="mb-0 bread">Trang cá nhân</h1>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="ftco-section ftco-no-pt ftco-no-pb">
-            <div class="container">
-                <div class="row d-flex no-gutters">
-                    <div class="col-md-6 d-flex order-md-last">
-                        <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
-                            <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-                                <span class="fa fa-play"></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 pr-md-5 py-md-5">
-                        <div class="row justify-content-start py-5">
-                            <div class="col-md-12 heading-section ftco-animate">
-                                <span class="subheading">Chào mừng đến với Tâm Lý Học</span>
-                                <h2 class="mb-4">Về Tâm Lý Học</h2>
-                                <p>Tâm lý học là một lĩnh vực nghiên cứu về hành vi và tâm trí con người. Chúng tôi cam kết cung cấp dịch vụ tư vấn tâm lý chất lượng cao nhằm giúp bạn vượt qua những khó khăn trong cuộc sống. Tại đây, bạn sẽ tìm thấy sự hỗ trợ và hướng dẫn cần thiết để cải thiện sức khỏe tâm thần.</p>
-                            </div>
-                        </div>
-                        <div class="row ftco-counter pb-5" id="section-counter">
-                            <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                                <div class="block-18">
-                                    <div class="text">
-                                        <strong class="number" data-number="20">0</strong>
-                                    </div>
-                                    <div class="text">
-                                        <span>Năm <br>Kinh nghiệm</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                                <div class="block-18">
-                                    <div class="text">
-                                        <strong class="number" data-number="1500">0</strong>
-                                    </div>
-                                    <div class="text">
-                                        <span>Khách hàng <br>Hạnh phúc</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                                <div class="block-18">
-                                    <div class="text">
-                                        <strong class="number" data-number="5">0</strong>
-                                    </div>
-                                    <div class="text">
-                                        <span>Giải thưởng <br>Xuất sắc</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="ftco-section">
-            <div class="container">
+        <div class="container">
+            <div class="main-body">
                 <div class="row">
-                    <div class="col-md-8">
-                        <h4>Lịch sử Tâm Lý Học</h4>
-                        <p>Tâm lý học đã có một lịch sử dài và phong phú, bắt đầu từ những nghiên cứu đầu tiên về tâm trí con người cho đến những phương pháp trị liệu hiện đại. Qua các thập kỷ, chúng tôi đã phát triển nhiều phương pháp và kỹ thuật để hỗ trợ khách hàng trong việc tìm kiếm sức khỏe tâm thần. Với đội ngũ chuyên gia giàu kinh nghiệm, chúng tôi tự hào mang đến dịch vụ tư vấn tâm lý tốt nhất cho cộng đồng.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="ftco-section testimony-section bg-dark">
-            <div class="container">
-                <div class="row justify-content-center pb-5 mb-3">
-                    <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-                        <span class="subheading">Phản hồi từ khách hàng</span>
-                        <h2>Khách hàng hài lòng &amp; Ý kiến</h2>
-                    </div>
-                </div>
-                <div class="row ftco-animate">
-                    <div class="col-md-12">
-                        <div class="carousel-testimony owl-carousel ftco-owl">
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                                    <div class="text">
-                                        <p class="mb-4">Tôi đã tìm thấy sự hỗ trợ rất cần thiết từ dịch vụ tư vấn tâm lý này. Nó đã giúp tôi vượt qua nhiều khó khăn trong cuộc sống.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Nguyễn Văn A</p>
-                                                <span class="position">Khách hàng</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                                    <div class="text">
-                                        <p class="mb-4">Dịch vụ tư vấn rất chuyên nghiệp và tận tình. Tôi cảm thấy được lắng nghe và thấu hiểu.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Trần Thị B</p>
-                                                <span class="position">Khách hàng</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                                    <div class="text">
-                                        <p class="mb-4">Tôi rất biết ơn vì đã tìm thấy dịch vụ này. Nó đã giúp tôi rất nhiều trong việc cải thiện sức khỏe tâm thần của mình.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Lê Văn C</p>
-                                                <span class="position">Khách hàng</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                                    <div class="text">
-                                        <p class="mb-4">Dịch vụ đã mang lại cho tôi sự an tâm và giúp tôi tìm lại được chính mình.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Phạm Thị D</p>
-                                                <span class="position">Khách hàng</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                                    <div class="text">
-                                        <p class="mb-4">Một trải nghiệm tuyệt vời! Tôi đã tìm thấy sự hỗ trợ mà tôi cần để vượt qua những thách thức trong cuộc sống.</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Nguyễn Thị E</p>
-                                                <span class="position">Khách hàng</span>
-                                            </div>
-                                        </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex flex-column align-items-center text-center">
+                                    <!-- User's uploaded profile image -->
+                                    <img id="profileImage" src="E:/Study Document/EXE201/Mind_Bridge/web/images/user/${u.profileImage}" 
+                                         alt="Profile" class="rounded-circle p-1 bg-primary" width="110">
+                                    <div class="mt-3">
+                                        <h4>${u.fullName}</h4> <!-- User's full name -->
+                                        <button class="btn btn-primary">Follow</button>
+                                        <button class="btn btn-outline-primary">Message</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-8">
+                        <form action="user_profile" method="POST" enctype="multipart/form-data">
+                            <div class="card">
+                                <div class="card-body">
+                                    <!-- File input for profile picture -->
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Change Profile Picture</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="file" name="newProfileImage" accept="image/*" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- Display full name -->
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Full Name</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="text" name="newFullName" class="form-control" value="${u.fullName}" required>
+                                        </div>
+                                    </div>
+                                    <!-- Display email -->
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Email</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <div style="font-size: larger;">${u.email}</div>
+                                        </div>
+                                    </div>
+                                    <!-- Display phone number -->
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Phone</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="text" name="newPhone" class="form-control" value="${u.phone}" required>
+                                        </div>
+                                    </div>
+                                    <!-- Add password field for changing password -->
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Password</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <input type="password" name="newPassword" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <!-- Save button -->
+                                    <div class="row">
+                                        <div class="col-sm-3"></div>
+                                        <div class="col-sm-9 text-secondary">
+                                            <button class="btn btn-primary px-4" type="submit">Save Changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+
 
 
 

@@ -19,6 +19,7 @@ public class User {
     private Date dateOfBirth;
     private String profileImage;
     private String role;
+    private String phone; // New phone field
 
     // Getters and Setters
     public int getUserId() {
@@ -83,6 +84,15 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    // Getter and Setter for phone
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }
 

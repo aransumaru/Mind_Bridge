@@ -10,7 +10,8 @@ CREATE TABLE [User] (
     gender NVARCHAR(50),
     date_of_birth DATE,
     profile_image VARCHAR(255),
-    role NVARCHAR(50)
+    role NVARCHAR(50),
+	phone VARCHAR(20)
 );
 
 CREATE TABLE Therapist (
