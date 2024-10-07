@@ -8,7 +8,7 @@ CREATE TABLE [User] (
     password VARCHAR(255) NOT NULL,
     name NVARCHAR(255),
     gender NVARCHAR(50),
-    date_of_birth DATE, -- Change this to VARCHAR(10)
+    date_of_birth DATE,
     profile_image VARCHAR(255),
     role NVARCHAR(50)
 );

@@ -42,6 +42,31 @@ public class UserDAO extends DBContext {
         }
         return null;
     }
+    
+    public User login(String email, String password) {
+        User user = null;
+        String sql = "SELECT * FROM [User] WHERE email = ? AND password = ?";
+        try {
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1, email);
+            ps.setString(2, password);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                user = new User();
+                user.setUserId(rs.getInt("user_id"));
+                user.setEmail(rs.getString("email"));
+                user.setPassword(rs.getString("password"));
+                user.setName(rs.getString("name"));
+                user.setGender(rs.getString("gender"));
+                user.setDateOfBirth(rs.getDate("date_of_birth"));
+                user.setProfileImage(rs.getString("profile_image"));
+                user.setRole(rs.getString("role"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return user;
+    }
 
     public List<User> getAllUsers() throws SQLException {
         List<User> users = new ArrayList<>();
@@ -67,9 +92,9 @@ public class UserDAO extends DBContext {
         String sql = "INSERT INTO [User] (email, password, name, gender, date_of_birth, profile_image, role) VALUES (?, ?, ?, ?, ?, ?, ?)";
         try {
             PreparedStatement ps = connection.prepareStatement(sql);
-            ps.setString(1, user.getName());
-            ps.setString(2, user.getEmail());
-            ps.setString(3, user.getPassword());
+            ps.setString(1, user.getEmail());
+            ps.setString(2, user.getPassword());
+            ps.setString(3, user.getName());
             ps.setString(4, user.getGender());
             ps.setDate(5, new java.sql.Date(user.getDateOfBirth().getTime())); // Correct date mapping
             ps.setString(6, user.getProfileImage());

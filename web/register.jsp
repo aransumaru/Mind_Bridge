@@ -1,14 +1,29 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vis">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Đăng ký</title>
         <link rel="stylesheet" href="css/register.css"> <!-- Link to your external CSS file -->
+        <style>
+            /* Additional styles for the MIND BRIDGE link */
+            .mind-bridge {
+                position: absolute; /* Position it in the top left corner */
+                top: 20px; /* Adjust as needed */
+                left: 20px; /* Adjust as needed */
+                font-size: 24px; /* Adjust font size */
+                text-decoration: none; /* Remove underline */
+                color: #000; /* Change color as needed */
+            }
+            .mind-bridge:hover {
+                color: #007BFF; /* Change color on hover */
+            }
+        </style>
     </head>
     <body>
+        <a href="index.jsp" class="mind-bridge">MIND BRIDGE</a> <!-- Link to index.jsp -->
         <div class="container">
             <!-- Title section -->
             <div class="title">Đăng ký</div>
@@ -19,11 +34,6 @@
                 <!-- Registration form -->
                 <form action="register" method="post" enctype="multipart/form-data"> 
                     <div class="user-details">
-                        <!-- Input for Full Name -->
-                        <div class="input-box">
-                            <span class="details">Họ và Tên</span>
-                            <input type="text" name="name" placeholder="Enter your name" required>
-                        </div>
                         <!-- Input for Email -->
                         <div class="input-box">
                             <span class="details">Email</span>
@@ -33,6 +43,11 @@
                         <div class="input-box">
                             <span class="details">Mật khẩu</span>
                             <input type="password" name="password" placeholder="Enter your password" required>
+                        </div>
+                        <!-- Input for Full Name -->
+                        <div class="input-box">
+                            <span class="details">Họ và Tên</span>
+                            <input type="text" name="name" placeholder="Enter your name" required>
                         </div>
                         <!-- Input for Confirm Password -->
                         <div class="input-box">
@@ -88,7 +103,7 @@
                     </div>
 
                     <div class="signup-link">
-                        Đã có tài khoản? <a href="login.html">Đăng nhập</a>
+                        Đã có tài khoản? <a href="login">Đăng nhập</a>
                     </div>
                 </form>
             </div>
