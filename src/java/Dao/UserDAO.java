@@ -5,6 +5,9 @@
 package Dao;
 
 import Model.User;
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -36,6 +39,7 @@ public class UserDAO extends DBContext {
                     user.setDateOfBirth(rs.getDate("date_of_birth"));
                     user.setProfileImage(rs.getString("profile_image"));
                     user.setRole(rs.getString("role"));
+                    user.setPhone(rs.getString("phone"));
                     return user;
                 }
             }
@@ -61,6 +65,7 @@ public class UserDAO extends DBContext {
                 user.setDateOfBirth(rs.getDate("date_of_birth"));
                 user.setProfileImage(rs.getString("profile_image"));
                 user.setRole(rs.getString("role"));
+                user.setPhone(rs.getString("phone"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -82,14 +87,16 @@ public class UserDAO extends DBContext {
                 user.setDateOfBirth(rs.getDate("date_of_birth"));
                 user.setProfileImage(rs.getString("profile_image"));
                 user.setRole(rs.getString("role"));
+                user.setPhone(rs.getString("phone"));
                 users.add(user);
             }
         }
         return users;
     }
+    
 
     public boolean registerUser(User user) {
-        String sql = "INSERT INTO [User] (email, password, name, gender, date_of_birth, profile_image, role) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO [User] (email, password, name, gender, date_of_birth, profile_image, role, phone) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         try {
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.setString(1, user.getEmail());
@@ -99,6 +106,7 @@ public class UserDAO extends DBContext {
             ps.setDate(5, new java.sql.Date(user.getDateOfBirth().getTime())); // Correct date mapping
             ps.setString(6, user.getProfileImage());
             ps.setString(7, user.getRole());
+            ps.setString(8, user.getPhone());
             return ps.executeUpdate() > 0; // Returns true if at least one record is inserted
         } catch (SQLException e) {
             e.printStackTrace();

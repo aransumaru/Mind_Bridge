@@ -59,6 +59,11 @@
                             <span class="details">Ngày sinh</span>
                             <input type="date" name="date_of_birth" required>
                         </div>
+                        <!-- Input for Phone (new field) -->
+                        <div class="input-box">
+                            <span class="details">Số điện thoại</span>
+                            <input type="tel" name="phone" placeholder="Enter your phone number" required> <!-- Phone input -->
+                        </div>
                         <!-- Input for Profile Image (File Upload) -->
                         <div class="input-box">
                             <span class="details">Ảnh đại diện</span>
