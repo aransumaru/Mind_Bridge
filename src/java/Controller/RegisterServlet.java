@@ -36,12 +36,12 @@ public class RegisterServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Get form data
-        String name = request.getParameter("name");
-        System.out.println("Name entered: " + name);
         String email = request.getParameter("email");
         System.out.println("Email entered: " + email);
         String password = request.getParameter("password");
         System.out.println("Password entered: " + password);
+        String name = request.getParameter("name");
+        System.out.println("Name entered: " + name);
         String gender = request.getParameter("gender");
         System.out.println("Gender selected: " + gender);
         Date dateOfBirth = null;
@@ -77,7 +77,7 @@ public class RegisterServlet extends HttpServlet {
 
         // Redirect based on registration success
         if (isRegistered) {
-            response.sendRedirect("login.html"); // Redirect to success page
+            response.sendRedirect("login"); // Redirect to success page
         } else {
             request.setAttribute("errorMessage", "Đăng ký không thành công. Vui lòng kiểm tra lại thông tin."); // Set error message
         request.getRequestDispatcher("register.jsp").forward(request, response); // Forward back to registration page
