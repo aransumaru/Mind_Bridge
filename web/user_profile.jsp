@@ -117,11 +117,10 @@
                             <div class="card-body">
                                 <div class="d-flex flex-column align-items-center text-center">
                                     <!-- User's uploaded profile image -->
-                                    <img id="profileImage" src="E:/Study Document/EXE201/Mind_Bridge/web/images/user/${u.profileImage}" 
+                                    <img src="E:/Study Document/EXE201/Mind_Bridge/web/images/user/ho-hoan-kiem-601baa99700a4.jpg" 
                                          alt="Profile" class="rounded-circle p-1 bg-primary" width="110">
                                     <div class="mt-3">
-                                        <h4>${u.fullName}</h4> <!-- User's full name -->
-                                        <button class="btn btn-primary">Follow</button>
+                                        <h4>Nguyễn Thành Nam</h4> <!-- User's full name -->
                                         <button class="btn btn-outline-primary">Message</button>
                                     </div>
                                 </div>
@@ -129,68 +128,58 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <form action="user_profile" method="POST" enctype="multipart/form-data">
-                            <div class="card">
-                                <div class="card-body">
-                                    <!-- File input for profile picture -->
-                                    <div class="row mb-3">
-                                        <div class="col-sm-3">
-                                            <h6 class="mb-0">Change Profile Picture</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                            <input type="file" name="newProfileImage" accept="image/*" class="form-control">
-                                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- Display full name -->
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Full Name</h6>
                                     </div>
-                                    <!-- Display full name -->
-                                    <div class="row mb-3">
-                                        <div class="col-sm-3">
-                                            <h6 class="mb-0">Full Name</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                            <input type="text" name="newFullName" class="form-control" value="${u.fullName}" required>
-                                        </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="Nguyễn Thành Nam" required>
                                     </div>
-                                    <!-- Display email -->
-                                    <div class="row mb-3">
-                                        <div class="col-sm-3">
-                                            <h6 class="mb-0">Email</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                            <div style="font-size: larger;">${u.email}</div>
-                                        </div>
+                                </div>
+                                <!-- Display email -->
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Email</h6>
                                     </div>
-                                    <!-- Display phone number -->
-                                    <div class="row mb-3">
-                                        <div class="col-sm-3">
-                                            <h6 class="mb-0">Phone</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                            <input type="text" name="newPhone" class="form-control" value="${u.phone}" required>
-                                        </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="email" class="form-control" value="dung7v3@gmail.com" required>
                                     </div>
-                                    <!-- Add password field for changing password -->
-                                    <div class="row mb-3">
-                                        <div class="col-sm-3">
-                                            <h6 class="mb-0">Password</h6>
-                                        </div>
-                                        <div class="col-sm-9 text-secondary">
-                                            <input type="password" name="newPassword" class="form-control" required>
-                                        </div>
+                                </div>
+                                <!-- Display phone number -->
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Phone</h6>
                                     </div>
-                                    <!-- Save button -->
-                                    <div class="row">
-                                        <div class="col-sm-3"></div>
-                                        <div class="col-sm-9 text-secondary">
-                                            <button class="btn btn-primary px-4" type="submit">Save Changes</button>
-                                        </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="0 324 192 111" required>
+                                    </div>
+                                </div>
+                                <!-- Add password field for changing password -->
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Password</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="password" class="form-control" value="12" required>
+                                    </div>
+                                </div>
+                                <!-- Save button -->
+                                <div class="row">
+                                    <div class="col-sm-3"></div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="button" class="btn btn-primary px-4" value="Save Changes">
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
 
 
