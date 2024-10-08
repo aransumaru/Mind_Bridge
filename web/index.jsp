@@ -53,14 +53,12 @@
                         <div class="row">
                             <div class="col-md-8 mb-md-0 mb-3">
                                 <div class="top-wrap d-flex">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
-                                    <div class="text"><span>Địa chỉ</span><span></span></div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="top-wrap d-flex">
                                     <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
-                                    <div class="text"><span>Gọi cho chúng tôi</span><span>(+01) 123 456 7890</span></div>
+                                    <div class="text"><span>Gọi cho chúng tôi</span><span>(+84)965 878 989</span></div>
                                 </div>
                             </div>
                         </div>
@@ -109,8 +107,7 @@
                             <div class="col-md-6 ftco-animate">
                                 <div class="text w-100">
                                     <h1 class="mb-4">Hãy Đón Nhận Hành Trình Chữa Lành</h1>
-                                    <p>Bước đầu tiên để tìm thấy sự bình yên nội tại. Nền tảng của chúng tôi cung cấp các công cụ và hỗ trợ cần thiết để vượt qua lo âu, trầm cảm và những thách thức cảm xúc. Cùng nhau, chúng ta sẽ giúp bạn tìm thấy hy vọng và chữa lành.</p>
-                                    <p><a href="#" class="btn btn-primary">Đặt lịch hẹn</a></p>
+                                    <p>Bước đầu tiên để tìm thấy sự bình yên nội tại. Nền tảng của chúng tôi cung cấp các công cụ và hỗ trợ cần thiết để vượt qua lo âu, trầm cảm và những thách thức cảm xúc. Cùng nhau, chúng ta sẽ giúp bạn tìm thấy hy vọng và chữa lành.</p>                                    
                                 </div>
                             </div>
                         </div>
@@ -125,7 +122,6 @@
                                 <div class="text w-100">
                                     <h1 class="mb-4">Nuôi Dưỡng Tâm Trí & Tâm Hồn</h1>
                                     <p>Đã đến lúc tập trung vào sức khỏe tâm lý của bạn. Với các liệu pháp hướng dẫn, thực hành chánh niệm và cộng đồng hỗ trợ, bạn sẽ học cách quản lý căng thẳng và xây dựng sự kiên cường cảm xúc để có một cuộc sống khỏe mạnh và hạnh phúc hơn.</p>
-                                    <p><a href="#" class="btn btn-primary">Đặt lịch hẹn</a></p>
                                 </div>
                             </div>
                         </div>
@@ -147,30 +143,12 @@
                                     <div class="row justify-content-center">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Tên của bạn">
+                                                <input type="text" class="form-control" name="customer_name" placeholder="Tên của bạn" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Số điện thoại">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <div class="form-field">
-                                                    <div class="select-wrap">
-                                                        <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                                        <select name="" id="" class="form-control">
-                                                            <option value="">Chọn Dịch Vụ</option>
-                                                            <option value="">Điều Chỉnh Xương</option>
-                                                            <option value="">Điện Châm</option>
-                                                            <option value="">Liệu Pháp Bạch Huyết Thủ Công</option>
-                                                            <option value="">Châm Cứu Y Tế</option>
-                                                            <option value="">Bài Tập Chữa Trị</option>
-                                                            <option value="">Di Động Khớp</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                                <input type="text" class="form-control" name="phone" placeholder="Số điện thoại" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -178,12 +156,13 @@
                                                 <div class="form-field">
                                                     <div class="select-wrap">
                                                         <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                                        <select name="" id="" class="form-control">
+                                                        <select name="therapist_id" id="therapist_id" class="form-control" required>
                                                             <option value="">Chọn Bác Sĩ Chuyên Khoa</option>
-                                                            <option value="">John Doe</option>
-                                                            <option value="">William Smith</option>
-                                                            <option value="">Danny Green</option>
-                                                            <option value="">Jason Thompson</option>
+                                                            <!-- Đây là ví dụ, bạn cần thay thế bằng danh sách các nhà trị liệu từ cơ sở dữ liệu -->
+                                                            <option value="1"></option>
+                                                            <option value="2"></option>
+                                                            <option value="3"></option>
+                                                            <option value="4"></option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -192,27 +171,32 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <div class="input-wrap">
-                                                    <div class="icon"><span class="fa fa-calendar"></span></div>
-                                                    <input type="text" class="form-control appointment_date" placeholder="Ngày">
+                                                    <input type="date" class="form-control" name="session_date" placeholder="Ngày" required>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <div class="input-wrap">
-                                                    <div class="icon"><span class="fa fa-clock-o"></span></div>
-                                                    <input type="text" class="form-control appointment_time" placeholder="Giờ">
+                                                    <input type="time" class="form-control" name="session_time" placeholder="Giờ" required>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="submit" value="Gửi tin nhắn" class="btn btn-secondary py-3 px-4">
+                                                <%
+                                                    if (request.getSession().getAttribute("role") == null) {
+                                                        out.println("<a href=\"login\" class=\"btn btn-secondary py-3 px-4\">Gửi tin nhắn</a>");
+                                                    } else if ((String)request.getSession().getAttribute("role") != null) {
+                                                        out.println("<input type=\"submit\" value=\"Gửi tin nhắn\" class=\"btn btn-secondary py-3 px-4\">");
+                                                    }
+                                                %>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
                             </div>
+
                             <div class="col-md-4 bg-white text-center p-5">
                                 <div class="desc border-bottom pb-4">
                                     <h2>Giờ Làm Việc</h2>
@@ -231,7 +215,7 @@
                                 </div>
                                 <div class="desc pt-4 ">
                                     <h3 class="heading">Đối Với Các Trường Hợp Khẩn Cấp</h3>
-                                    <span class="phone">(+01) 123 456 7890</span>
+                                    <span class="phone">(+84)965 878 989</span>
                                 </div>
                             </div>
                         </div>
@@ -746,8 +730,7 @@
                             <h2 class="ftco-heading-2">Thông tin liên hệ</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon fa fa-map-marker"></span><span class="text"></span></li>
-                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 123 456 789</span></a></li>
+                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+84)965 878 989</span></a></li>
                                     <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@domaincuaban.com</span></a></li>
                                 </ul>
                             </div>
