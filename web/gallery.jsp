@@ -52,14 +52,12 @@
                         <div class="row">
                             <div class="col-md-8 mb-md-0 mb-3">
                                 <div class="top-wrap d-flex">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
-                                    <div class="text"><span>Địa chỉ</span><span></span></div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="top-wrap d-flex">
                                     <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
-                                    <div class="text"><span>Gọi cho chúng tôi</span><span>(+01) 123 456 7890</span></div>
+                                    <div class="text"><span>Gọi cho chúng tôi</span><span>(+84)965 878 989</span></div>
                                 </div>
                             </div>
                         </div>
@@ -246,8 +244,7 @@
                             <h2 class="ftco-heading-2">Thông tin liên hệ</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon fa fa-map-marker"></span><span class="text"></span></li>
-                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 123 456 789</span></a></li>
+                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+84)965 878 989</span></a></li>
                                     <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@domaincuaban.com</span></a></li>
                                 </ul>
                             </div>

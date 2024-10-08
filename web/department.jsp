@@ -52,14 +52,12 @@
                         <div class="row">
                             <div class="col-md-8 mb-md-0 mb-3">
                                 <div class="top-wrap d-flex">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
-                                    <div class="text"><span>Địa chỉ</span><span></span></div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="top-wrap d-flex">
                                     <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
-                                    <div class="text"><span>Gọi cho chúng tôi</span><span>(+01) 123 456 7890</span></div>
+                                    <div class="text"><span>Gọi cho chúng tôi</span><span>(+84)965 878 989</span></div>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +124,7 @@
                             <li>Không có quyền truy cập vào các buổi trị liệu trực tuyến cá nhân.</li>
                             <li>Không có hàng chờ ưu tiên.</li>
                         </ul>
-                        <p><a href="#" class="btn btn-primary">Đăng Ký Ngay</a></p>
+                        <p class="btn btn-primary">Đã đăng ký</p>
                     </div>
                     <div class="col-md-6 img" style="background-image: url(images/free-member.jpg);"></div>
                 </div>
@@ -148,7 +146,13 @@
                         <ul>
                             <li>Số lượng buổi tư vấn trực tuyến cá nhân hạn chế.</li>
                         </ul>
-                        <p><a href="#" class="btn btn-primary">Đăng Ký Ngay</a></p>
+                        <%
+                        if (request.getSession().getAttribute("role") == null) {
+                            out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                        } else if ((String)request.getSession().getAttribute("role") != null) {
+                            out.println("<a href=\"#\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                        }
+                        %>
                     </div>
                     <div class="col-md-6 img" style="background-image: url(images/basic-member.jpg);"></div>
                 </div>
@@ -167,7 +171,13 @@
                             <li>Truy cập vào các công cụ và bài tập nâng cao.</li>
                             <li>Hàng chờ ưu tiên cấp 2 khi tìm và hẹn các nhà điều trị tâm lý.</li>
                         </ul>
-                        <p><a href="#" class="btn btn-primary">Đăng Ký Ngay</a></p>
+                        <%
+                        if (request.getSession().getAttribute("role") == null) {
+                            out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                        } else if ((String)request.getSession().getAttribute("role") != null) {
+                            out.println("<a href=\"#\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                        }
+                        %>
                     </div>
                     <div class="col-md-6 img" style="background-image: url(images/premium-member.jpg);"></div>
                 </div>
@@ -187,7 +197,13 @@
                             <li>Các bài tập và chương trình tùy chỉnh hoàn toàn theo tình trạng cá nhân.</li>
                             <li>Hàng chờ ưu tiên cao nhất (cấp 3) khi tìm và hẹn các nhà điều trị tâm lý.</li>
                         </ul>
-                        <p><a href="#" class="btn btn-primary">Đăng Ký Ngay</a></p>
+                        <%
+                        if (request.getSession().getAttribute("role") == null) {
+                            out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                        } else if ((String)request.getSession().getAttribute("role") != null) {
+                            out.println("<a href=\"#\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                        }
+                        %>
                     </div>
                     <div class="col-md-6 img" style="background-image: url(images/elite-member.jpg);"></div>
                 </div>
@@ -228,8 +244,7 @@
                             <h2 class="ftco-heading-2">Thông tin liên hệ</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon fa fa-map-marker"></span><span class="text"></span></li>
-                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 123 456 789</span></a></li>
+                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+84)965 878 989</span></a></li>
                                     <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@domaincuaban.com</span></a></li>
                                 </ul>
                             </div>
