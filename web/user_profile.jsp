@@ -91,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <!-- footer -->
+        <!-- footer  -->
         <%@ include file="/folder/footer.jsp" %>
         <!-- end footer -->
 
