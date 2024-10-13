@@ -38,7 +38,7 @@
                                 </div>
                                 <h3 class="heading"><a href="blog-single.jsp">Điều Cần Biết Về Phục Hồi Tâm Lý Sau Chấn Thương</a></h3>
                                 <p>Một con sông nhỏ tên là Duden chảy qua nơi họ sống và cung cấp những điều cần thiết cho cuộc sống hàng ngày. Đó là một vùng đất lý tưởng, nơi mà những phần câu chữ nướng chín bay vào miệng bạn.</p>
-                                <p><a href="blog-single.html" class="btn btn-primary">Đọc thêm</a></p>
+                                <p><a href="blog-single.jsp" class="btn btn-primary">Đọc thêm</a></p>
                             </div>
                         </div>
                     </div>
@@ -54,15 +54,15 @@
                                         <span>11 Tháng 10, 2024</span>
                                     </div>
                                 </div>
-                                <h3 class="heading"><a href="blog-single.html">Làm Thế Nào Để Giảm Căng Thẳng Tâm Lý?</a></h3>
+                                <h3 class="heading"><a href="blog-single.jsp">Làm Thế Nào Để Giảm Căng Thẳng Tâm Lý?</a></h3>
                                 <p>Giảm căng thẳng là rất quan trọng để duy trì sức khỏe tâm lý. Hãy cùng tìm hiểu những phương pháp hiệu quả giúp bạn thư giãn và lấy lại cân bằng trong cuộc sống.</p>
-                                <p><a href="blog-single.html" class="btn btn-primary">Đọc thêm</a></p>
+                                <p><a href="blog-single.jsp" class="btn btn-primary">Đọc thêm</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
+                            <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
@@ -72,9 +72,9 @@
                                         <span>11 Tháng 10, 2024</span>
                                     </div>
                                 </div>
-                                <h3 class="heading"><a href="blog-single.html">Tác Động Của Tâm Lý Đến Sức Khỏe Thể Chất</a></h3>
+                                <h3 class="heading"><a href="blog-single.jsp">Tác Động Của Tâm Lý Đến Sức Khỏe Thể Chất</a></h3>
                                 <p>Tâm lý có mối liên hệ chặt chẽ với sức khỏe thể chất. Hãy cùng khám phá cách mà sức khỏe tâm lý có thể ảnh hưởng đến cơ thể và ngược lại.</p>
-                                <p><a href="blog-single.html" class="btn btn-primary">Đọc thêm</a></p>
+                                <p><a href="blog-single.jsp" class="btn btn-primary">Đọc thêm</a></p>
                             </div>
                         </div>
                     </div>

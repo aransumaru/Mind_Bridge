@@ -37,8 +37,8 @@
                             <h2 class="ftco-heading-2">Thông tin liên hệ</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+84)353 840 387</span></a></li>
-                                    <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">hieupthe176422@fpt.edu.vn</span></a></li>
+                                    <li><a href="tel://0353840387"><span class="icon fa fa-phone"></span><span class="text">(+84) 353 840 387</span></a></li>
+                                    <li><a href="mailto:hieupthe176422@fpt.edu.vn"><span class="icon fa fa-paper-plane"></span><span class="text">hieupthe176422@fpt.edu.vn</span></a></li>
                                 </ul>
                             </div>
                         </div>

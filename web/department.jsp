@@ -29,7 +29,7 @@
                         <ul>
                             <li>Truy cập vào một số tài nguyên cơ bản như bài viết, video hướng dẫn, và podcast về sức khỏe tâm lý.</li>
                             <li>Tham gia các hoạt động chữa lành tâm lý cộng đồng trực tuyến.</li>
-                            <li>Sử dụng các công cụ tự giúp đỡ như nhật ký tâm lý, bảng câu hỏi đánh giá tâm trạng.</li>
+                            <li>Sử dụng các công cụ tự giúp đỡ như nhật ký tâm lý, bảng câu hỏi đánh giá tâm lý.</li>
                         </ul>
                         <h4>Hạn Chế:</h4>
                         <ul>
@@ -37,7 +37,7 @@
                             <li>Không có quyền truy cập vào các buổi trị liệu trực tuyến cá nhân.</li>
                             <li>Không có hàng chờ ưu tiên.</li>
                         </ul>
-                        <a href="payment.jsp" class="btn btn-primary">Thử Ngay</a>
+                        <a href="quiz.jsp" class="btn btn-primary">Đánh giá tâm lý miễn phí</a>
 
                     </div>
                     <div class="col-md-6 img" style="background-image: url(images/free-member.jpg);"></div>
