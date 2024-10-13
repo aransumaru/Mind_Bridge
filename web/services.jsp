@@ -49,7 +49,7 @@
                                 <a class="nav-link py-4" data-toggle="tab" href="#services-5"><span class="flaticon-stress mr-2"></span> Giảm căng thẳng</a>
                             </li>
                             <li class="nav-item text-left">
-                                <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-support mr-2"></span> Hỗ trợ Tình cảm</a>
+                                <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-support mr-2"></span> Kiểm tra tâm lý miễn phí</a>
                             </li>
                         </ul>
                     </div>
@@ -82,8 +82,8 @@
                             </div>
                             <div class="tab-pane container p-0 fade" id="services-6">
                                 <div class="img" style="background-image: url(images/work-1.jpg);"></div>
-                                <h3><a href="#">Hỗ trợ Tình cảm</a></h3>
-                                <p>Chúng tôi cung cấp dịch vụ hỗ trợ tình cảm cho những ai đang trải qua khó khăn trong các mối quan hệ hoặc cảm xúc cá nhân.</p>
+                                <h3><a href="#">Kiểm tra tâm lý miễn phí</a></h3>
+                                <p>Cung cấp dịch vụ hỗ trợ kiểm tra tâm lý miễn phí qua Bài Test đánh giá Lo âu - Trầm cảm - Stress (DASS 21) tại <a href="quiz.jsp">Đây</a>.</p>
                             </div>
                         </div>
                     </div>

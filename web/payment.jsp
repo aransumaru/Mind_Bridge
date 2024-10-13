@@ -43,7 +43,7 @@
                         <p class="text-center"><strong>HOẶC QUÉT MÃ QR SAU ĐỂ TỰ ĐỘNG ĐIỀN THÔNG TIN</strong></p>
                     </div>
         </section>
-        F        <!-- footer -->
+                <!-- footer -->
         <%@ include file="/folder/footer.jsp" %>
         <!-- end footer -->
 

@@ -9,7 +9,8 @@
     String departmentPage = request.getContextPath() + "/department.jsp"; 
     String galleryPage = request.getContextPath() + "/gallery.jsp";
     String blogPage = request.getContextPath() + "/blog.jsp"; 
-    String contactPage = request.getContextPath() + "/contact.jsp"; 
+    String contactPage = request.getContextPath() + "/contact.jsp";
+    String quizPage = request.getContextPath() + "/quiz.jsp"; 
 %>
 
 <div class="top py-1">
@@ -46,7 +47,7 @@
                     <div class="col">
                         <div class="top-wrap d-flex">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
-                            <div class="text"><span>Gọi cho chúng tôi</span><span>(+84)353 840 387</span></div>
+                            <div class="text"><span>Gọi cho chúng tôi</span><span>(+84) 353 840 387</span></div>
                         </div>
                     </div>
                 </div>
@@ -96,6 +97,7 @@
                 <li class="nav-item <%= currentPage.equals(contactPage) ? "active" : "" %>">
                     <a href="contact.jsp" class="nav-link">Liên Hệ</a>
                 </li>
+
             </ul>
         </div>
     </div>
