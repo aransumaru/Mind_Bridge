@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col d-flex align-items-center">
-                <p class="mb-0"><a href="#">hieupthe176422@fpt.edu.vnt</a> | <a href="#">Trợ Giúp</a> | </p>
+                <p class="mb-0"><a href="#">hieupthe176422@fpt.edu.vn</a> | <a href="#">Trợ Giúp</a> | </p>
             </div>
             <div class="col-4 d-flex justify-content-end">
                 <div class="social-media">

@@ -26,17 +26,17 @@
                 <div class="row">
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
+                            <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
                                     <div class="img author" style="background-image: url(images/person_2.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Văn A</span>
-                                        <span>24 Tháng 2, 2020</span>
+                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>9 Tháng 10, 2024</span>
                                     </div>
                                 </div>
-                                <h3 class="heading"><a href="blog-single.html">Điều Cần Biết Về Phục Hồi Tâm Lý Sau Chấn Thương</a></h3>
+                                <h3 class="heading"><a href="blog-single.jsp">Điều Cần Biết Về Phục Hồi Tâm Lý Sau Chấn Thương</a></h3>
                                 <p>Một con sông nhỏ tên là Duden chảy qua nơi họ sống và cung cấp những điều cần thiết cho cuộc sống hàng ngày. Đó là một vùng đất lý tưởng, nơi mà những phần câu chữ nướng chín bay vào miệng bạn.</p>
                                 <p><a href="blog-single.html" class="btn btn-primary">Đọc thêm</a></p>
                             </div>
@@ -44,14 +44,14 @@
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
+                            <a href="blog-single.jsp" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
                                     <div class="img author" style="background-image: url(images/person_3.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Văn B</span>
-                                        <span>24 Tháng 2, 2020</span>
+                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>11 Tháng 10, 2024</span>
                                     </div>
                                 </div>
                                 <h3 class="heading"><a href="blog-single.html">Làm Thế Nào Để Giảm Căng Thẳng Tâm Lý?</a></h3>
@@ -68,8 +68,8 @@
                                 <div class="posted mb-3 d-flex">
                                     <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Trần Thị C</span>
-                                        <span>24 Tháng 2, 2020</span>
+                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>11 Tháng 10, 2024</span>
                                     </div>
                                 </div>
                                 <h3 class="heading"><a href="blog-single.html">Tác Động Của Tâm Lý Đến Sức Khỏe Thể Chất</a></h3>

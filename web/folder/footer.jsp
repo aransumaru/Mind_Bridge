@@ -64,7 +64,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Bản quyền &copy;<script>document.write(new Date().getFullYear());</script> Tất cả quyền được bảo lưu | Mẫu này được thực hiện với <i class="fa fa-heart" aria-hidden="true"></i> bởi <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            Bản quyền &copy;<script>document.write(new Date().getFullYear());</script> Bản quyền thuộc về <a href="https://www.facebook.com/profile.php?id=61566493175150" target="_blank">Mind Bridge</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
                 </div>

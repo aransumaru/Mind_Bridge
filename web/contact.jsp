@@ -25,9 +25,6 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-12">
-                        <div id="map" class="map"></div>
-                    </div>
-                    <div class="col-md-12">
                         <div class="wrapper">
                             <div class="row no-gutters">
                                 <div class="col-md-7 d-flex">
@@ -73,7 +70,7 @@
                                                 <span class="fa fa-map-marker"></span>
                                             </div>
                                             <div class="text pl-3">
-                                                <p><span>Địa chỉ:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                                <p><span>Địa chỉ:</span>  Khu Công nghệ cao Hòa Lạc, Km29 Đại lộ Thăng Long, huyện Thạch Thất, Hà Nội</p>
                                             </div>
                                         </div>
                                         <div class="dbox w-100 d-flex align-items-center">
@@ -81,7 +78,7 @@
                                                 <span class="fa fa-phone"></span>
                                             </div>
                                             <div class="text pl-3">
-                                                <p><span>Số điện thoại:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                                                <p><span>Số điện thoại:</span> <a href="tel://0353840387">(+84)353 840 387</a></p>
                                             </div>
                                         </div>
                                         <div class="dbox w-100 d-flex align-items-center">
@@ -89,7 +86,7 @@
                                                 <span class="fa fa-paper-plane"></span>
                                             </div>
                                             <div class="text pl-3">
-                                                <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                                <p><span>Email:</span> <a href="mailto:hieupthe176422@fpt.edu.vn">hieupthe176422@fpt.edu.vn</a></p>
                                             </div>
                                         </div>
                                         <div class="dbox w-100 d-flex align-items-center">
@@ -97,7 +94,7 @@
                                                 <span class="fa fa-globe"></span>
                                             </div>
                                             <div class="text pl-3">
-                                                <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                                <p><span>Facebook</span> <a href="https://www.facebook.com/profile.php?id=61566493175150">Mind Bridge</a></p>
                                             </div>
                                         </div>
                                     </div>
