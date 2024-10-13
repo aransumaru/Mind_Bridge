@@ -153,7 +153,7 @@
             </div>
         </section>
 
-F        <!-- footer -->
+        <!-- footer -->
         <%@ include file="/folder/footer.jsp" %>
         <!-- end footer -->
 

@@ -37,7 +37,8 @@
                             <li>Không có quyền truy cập vào các buổi trị liệu trực tuyến cá nhân.</li>
                             <li>Không có hàng chờ ưu tiên.</li>
                         </ul>
-                        <p class="btn btn-primary">Đã đăng ký</p>
+                        <a href="payment.jsp" class="btn btn-primary">Thử Ngay</a>
+
                     </div>
                     <div class="col-md-6 img" style="background-image: url(images/free-member.jpg);"></div>
                 </div>
@@ -63,7 +64,7 @@
                         if (request.getSession().getAttribute("role") == null) {
                             out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng ký ngay</a>");
                         } else if ((String)request.getSession().getAttribute("role") != null) {
-                            out.println("<a href=\"#\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                            out.println("<a href=payment.jsp class=\"btn btn-primary\">Đăng ký ngay</a>");
                         }
                         %>
                     </div>
@@ -88,7 +89,7 @@
                         if (request.getSession().getAttribute("role") == null) {
                             out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng ký ngay</a>");
                         } else if ((String)request.getSession().getAttribute("role") != null) {
-                            out.println("<a href=\"#\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                            out.println("<a href=payment.jsp class=\"btn btn-primary\">Đăng ký ngay</a>");
                         }
                         %>
                     </div>
@@ -114,7 +115,7 @@
                         if (request.getSession().getAttribute("role") == null) {
                             out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng ký ngay</a>");
                         } else if ((String)request.getSession().getAttribute("role") != null) {
-                            out.println("<a href=\"#\" class=\"btn btn-primary\">Đăng ký ngay</a>");
+                            out.println("<a href=payment.jsp class=\"btn btn-primary\">Đăng ký ngay</a>");
                         }
                         %>
                     </div>
