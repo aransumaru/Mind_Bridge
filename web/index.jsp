@@ -1,105 +1,14 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+i<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="vi">
-    <head>
-        <title>Mind Bridge</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <link rel="stylesheet" href="css/animate.css">
-
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-
-        <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-        <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-        <link rel="stylesheet" href="css/flaticon.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+    <!-- header -->
+    <%@ include file="/folder/header.jsp" %>
+    <!-- end header -->
     <body>
-        <div class="top py-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col d-flex align-items-center">
-                        <p class="mb-0"><a href="#">chiropractic@email.com</a> | <a href="#">Trợ Giúp</a> | </p>
-                    </div>
-                    <div class="col-4 d-flex justify-content-end">
-                        <div class="social-media">
-                            <p class="mb-0 d-flex">
-                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="wrap">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-3 mb-md-0 mb-4 d-flex align-items-center">
-                        <a class="navbar-brand" href="index.jsp">Mind Bridge</a>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="row">
-                            <div class="col-md-8 mb-md-0 mb-3">
-                                <div class="top-wrap d-flex">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
-                                    <div class="text"><span>Địa chỉ</span><span></span></div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="top-wrap d-flex">
-                                    <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
-                                    <div class="text"><span>Gọi cho chúng tôi</span><span>(+01) 123 456 7890</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa fa-bars"></span> Menu
-                </button>
-                <div class="order-lg-last">
-                    <%
-                        if (request.getSession().getAttribute("role") == null) {
-                            out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng nhập</a>");
-                        } else if ((String)request.getSession().getAttribute("role") != null) {
-                            out.println("<a href=\"user_profile.jsp\" class=\"btn btn-primary\">Profile</a>");
-                            out.println("<a href=\"logout\" class=\"btn btn-primary\">Đăng xuất</a>");
-                        }
-                    %>
-                </div>
-
-                <div class="collapse navbar-collapse" id="ftco-nav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a href="index.jsp" class="nav-link">Trang Chủ</a></li>
-                        <li class="nav-item"><a href="about.jsp" class="nav-link">Giới Thiệu</a></li>
-                        <li class="nav-item"><a href="team.jsp" class="nav-link">Đội Ngũ</a></li>
-                        <li class="nav-item"><a href="services.jsp" class="nav-link">Dịch Vụ</a></li>
-                        <li class="nav-item"><a href="department.jsp" class="nav-link">Gói Hội Viên</a></li>
-                        <li class="nav-item"><a href="gallery.jsp" class="nav-link">Thư Viện Ảnh</a></li>
-                        <li class="nav-item"><a href="blog.jsp" class="nav-link">Blog</a></li>
-                        <li class="nav-item"><a href="contact.jsp" class="nav-link">Liên Hệ</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- END nav -->
-
+        <!-- navigation -->
+        <%@ include file="/folder/navigation.jsp" %>
+        <!-- end navigation -->
         <div class="hero-wrap">
             <div class="home-slider owl-carousel">
                 <div class="slider-item" style="background-image:url(images/2.jpg);">
@@ -109,8 +18,7 @@
                             <div class="col-md-6 ftco-animate">
                                 <div class="text w-100">
                                     <h1 class="mb-4">Hãy Đón Nhận Hành Trình Chữa Lành</h1>
-                                    <p>Bước đầu tiên để tìm thấy sự bình yên nội tại. Nền tảng của chúng tôi cung cấp các công cụ và hỗ trợ cần thiết để vượt qua lo âu, trầm cảm và những thách thức cảm xúc. Cùng nhau, chúng ta sẽ giúp bạn tìm thấy hy vọng và chữa lành.</p>
-                                    <p><a href="#" class="btn btn-primary">Đặt lịch hẹn</a></p>
+                                    <p>Bước đầu tiên để tìm thấy sự bình yên nội tại. Nền tảng của chúng tôi cung cấp các công cụ và hỗ trợ cần thiết để vượt qua lo âu, trầm cảm và những thách thức cảm xúc. Cùng nhau, chúng ta sẽ giúp bạn tìm thấy hy vọng và chữa lành.</p>                                    
                                 </div>
                             </div>
                         </div>
@@ -125,7 +33,6 @@
                                 <div class="text w-100">
                                     <h1 class="mb-4">Nuôi Dưỡng Tâm Trí & Tâm Hồn</h1>
                                     <p>Đã đến lúc tập trung vào sức khỏe tâm lý của bạn. Với các liệu pháp hướng dẫn, thực hành chánh niệm và cộng đồng hỗ trợ, bạn sẽ học cách quản lý căng thẳng và xây dựng sự kiên cường cảm xúc để có một cuộc sống khỏe mạnh và hạnh phúc hơn.</p>
-                                    <p><a href="#" class="btn btn-primary">Đặt lịch hẹn</a></p>
                                 </div>
                             </div>
                         </div>
@@ -147,30 +54,12 @@
                                     <div class="row justify-content-center">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Tên của bạn">
+                                                <input type="text" class="form-control" name="customer_name" placeholder="Tên của bạn" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Số điện thoại">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <div class="form-field">
-                                                    <div class="select-wrap">
-                                                        <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                                        <select name="" id="" class="form-control">
-                                                            <option value="">Chọn Dịch Vụ</option>
-                                                            <option value="">Điều Chỉnh Xương</option>
-                                                            <option value="">Điện Châm</option>
-                                                            <option value="">Liệu Pháp Bạch Huyết Thủ Công</option>
-                                                            <option value="">Châm Cứu Y Tế</option>
-                                                            <option value="">Bài Tập Chữa Trị</option>
-                                                            <option value="">Di Động Khớp</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                                <input type="text" class="form-control" name="phone" placeholder="Số điện thoại" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -178,12 +67,13 @@
                                                 <div class="form-field">
                                                     <div class="select-wrap">
                                                         <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                                        <select name="" id="" class="form-control">
+                                                        <select name="therapist_id" id="therapist_id" class="form-control" required>
                                                             <option value="">Chọn Bác Sĩ Chuyên Khoa</option>
-                                                            <option value="">John Doe</option>
-                                                            <option value="">William Smith</option>
-                                                            <option value="">Danny Green</option>
-                                                            <option value="">Jason Thompson</option>
+                                                            <!-- Đây là ví dụ, bạn cần thay thế bằng danh sách các nhà trị liệu từ cơ sở dữ liệu -->
+                                                            <option value="1"></option>
+                                                            <option value="2"></option>
+                                                            <option value="3"></option>
+                                                            <option value="4"></option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -192,27 +82,32 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <div class="input-wrap">
-                                                    <div class="icon"><span class="fa fa-calendar"></span></div>
-                                                    <input type="text" class="form-control appointment_date" placeholder="Ngày">
+                                                    <input type="date" class="form-control" name="session_date" placeholder="Ngày" required>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <div class="input-wrap">
-                                                    <div class="icon"><span class="fa fa-clock-o"></span></div>
-                                                    <input type="text" class="form-control appointment_time" placeholder="Giờ">
+                                                    <input type="time" class="form-control" name="session_time" placeholder="Giờ" required>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="submit" value="Gửi tin nhắn" class="btn btn-secondary py-3 px-4">
+                                                <%
+                                                    if (request.getSession().getAttribute("role") == null) {
+                                                        out.println("<a href=\"login\" class=\"btn btn-secondary py-3 px-4\">Gửi tin nhắn</a>");
+                                                    } else if ((String)request.getSession().getAttribute("role") != null) {
+                                                        out.println("<input type=\"submit\" value=\"Gửi tin nhắn\" class=\"btn btn-secondary py-3 px-4\">");
+                                                    }
+                                                %>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
                             </div>
+
                             <div class="col-md-4 bg-white text-center p-5">
                                 <div class="desc border-bottom pb-4">
                                     <h2>Giờ Làm Việc</h2>
@@ -231,7 +126,7 @@
                                 </div>
                                 <div class="desc pt-4 ">
                                     <h3 class="heading">Đối Với Các Trường Hợp Khẩn Cấp</h3>
-                                    <span class="phone">(+01) 123 456 7890</span>
+                                    <span class="phone">(+84)353 840 387</span>
                                 </div>
                             </div>
                         </div>
@@ -667,10 +562,10 @@
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_2.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Văn A</span>
-                                        <span>24 Tháng 2, 2020</span>
+                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>9 Tháng 10, 2024</span>
                                     </div>
                                 </div>
                                 <h3 class="heading"><a href="#">Những điều mỗi người nên biết về phục hồi tâm lý</a></h3>
@@ -683,10 +578,10 @@
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_3.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Văn B</span>
-                                        <span>25 Tháng 2, 2020</span>
+                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>11 Tháng 10, 2024</span>
                                     </div>
                                 </div>
                                 <h3 class="heading"><a href="#">Hướng dẫn cách vượt qua trầm cảm</a></h3>
@@ -701,8 +596,8 @@
                                 <div class="posted mb-3 d-flex">
                                     <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Văn C</span>
-                                        <span>26 Tháng 2, 2020</span>
+                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>12 Tháng 10, 2024</span>
                                     </div>
                                 </div>
                                 <h3 class="heading"><a href="#">Tầm quan trọng của tư vấn tâm lý trong xã hội hiện đại</a></h3>
@@ -713,80 +608,13 @@
             </div>
         </section>
 
-
-        <footer class="footer ftco-section ftco-no-pt">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-6 col-lg">
-                        <div class="ftco-footer-widget py-4 py-md-5">
-                            <h2 class="logo"><a href="#">Tâm Lý Học</a></h2>
-                            <p>Chúng tôi cung cấp dịch vụ tư vấn và hỗ trợ tâm lý cho những ai cần giúp đỡ trong cuộc sống hàng ngày. Hãy để chúng tôi đồng hành cùng bạn trên hành trình tìm kiếm sức khỏe tâm thần.</p>
-                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
-                                <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg">
-                        <div class="ftco-footer-widget ml-md-5 py-5">
-                            <h2 class="ftco-heading-2">Dịch Vụ</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Tư vấn tâm lý</a></li>
-                                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Hỗ trợ tâm lý</a></li>
-                                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Chương trình phục hồi tâm lý</a></li>
-                                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Tham vấn cho trẻ em</a></li>
-                                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Đào tạo kỹ năng quản lý cảm xúc</a></li>
-                                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Hỗ trợ tâm lý cho gia đình</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg">
-                        <div class="ftco-footer-widget py-4 py-md-5">
-                            <h2 class="ftco-heading-2">Thông tin liên hệ</h2>
-                            <div class="block-23 mb-3">
-                                <ul>
-                                    <li><span class="icon fa fa-map-marker"></span><span class="text"></span></li>
-                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+84 123 456 789</span></a></li>
-                                    <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@domaincuaban.com</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg">
-                        <div class="ftco-footer-widget bg-primary p-4 py-5">
-                            <h2 class="ftco-heading-2">Giờ làm việc</h2>
-                            <div class="opening-hours">
-                                <h4>Ngày mở cửa:</h4>
-                                <p class="pl-3">
-                                    <span>Thứ Hai – Thứ Sáu : 9am đến 8pm</span>
-                                    <span>Thứ Bảy : 9am đến 5pm</span>
-                                </p>
-                                <h4>Ngày nghỉ:</h4>
-                                <p class="pl-3">
-                                    <span>Tất cả các ngày Chủ Nhật</span>
-                                    <span>Tất cả các ngày lễ</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Bản quyền &copy;<script>document.write(new Date().getFullYear());</script> Tất cả quyền được bảo lưu | Mẫu này được thực hiện với <i class="fa fa-heart" aria-hidden="true"></i> bởi <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-
+        <!-- footer -->
+        <%@ include file="/folder/footer.jsp" %>
+        <!-- end footer -->
 
         <!-- loader -->
-        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
+        <%@ include file="/folder/loader.jsp" %>
+        <!-- end loader -->
 
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery-migrate-3.0.1.min.js"></script>
