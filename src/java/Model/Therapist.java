@@ -9,12 +9,14 @@ package Model;
  * @author Hello
  */
 public class Therapist {
+
     private int therapistId;
     private int userId;
     private String specialization;
     private String availableTime;
     private String certification;
     private double rating;
+    private User user;
 
     // Getters and Setters
     public int getTherapistId() {
@@ -64,5 +66,12 @@ public class Therapist {
     public void setRating(double rating) {
         this.rating = rating;
     }
-}
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+}

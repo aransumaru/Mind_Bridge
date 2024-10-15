@@ -20,7 +20,25 @@ public class User {
     private String profileImage;
     private String role;
     private String phone; // New phone field
+    private String point;
+    private String level;
 
+    public String getPoint() {
+        return point;
+    }
+
+    public void setPoint(String point) {
+        this.point = point;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
+    }
+    
     // Getters and Setters
     public int getUserId() {
         return userId;
