@@ -12,7 +12,6 @@
     String contactPage = request.getContextPath() + "/contact.jsp";
     String quizPage = request.getContextPath() + "/quiz.jsp"; 
 %>
-
 <div class="top py-1">
     <div class="container">
         <div class="row">
@@ -63,10 +62,27 @@
         <div class="order-lg-last">
             <%
                 if (request.getSession().getAttribute("role") == null) {
-                    out.println("<a href=\"login\" class=\"btn btn-primary\">Đăng nhập</a>");
-                } else if ((String)request.getSession().getAttribute("role") != null) {
-                    out.println("<a href=\"user_profile.jsp\" class=\"btn btn-primary\">Profile</a>");
-                    out.println("<a href=\"logout\" class=\"btn btn-primary\">Đăng xuất</a>");
+            %>
+            <!-- Nút Đăng nhập khi người dùng chưa đăng nhập -->
+            <a href="login" class="btn btn-primary">Đăng nhập</a>
+            <%
+                } else if (request.getSession().getAttribute("role") != null) {
+            %>
+            <!-- Dropdown khi người dùng đã đăng nhập -->
+            <div class="dropdown">
+                <a href="#" class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tài khoản
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <!-- Trang cá nhân -->
+                    <a class="dropdown-item" href="user_profile.jsp">Trang cá nhân</a>
+                    <!-- Đặt lịch hẹn -->
+                    <a class="dropdown-item" href="order.jsp">Đặt lịch hẹn</a>
+                    <!-- Đăng xuất -->
+                    <a class="dropdown-item" href="logout">Đăng xuất</a>
+                </div>
+            </div>
+            <%
                 }
             %>
         </div>
@@ -102,4 +118,5 @@
         </div>
     </div>
 </nav>
+
 <!-- END nav -->
