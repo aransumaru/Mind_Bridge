@@ -77,7 +77,7 @@
                     <!-- Trang cá nhân -->
                     <a class="dropdown-item" href="user_profile.jsp">Trang cá nhân</a>
                     <!-- Đặt lịch hẹn -->
-                    <a class="dropdown-item" href="order.jsp">Đặt lịch hẹn</a>
+                    <a class="dropdown-item" href="order">Đặt lịch hẹn</a>
                     <!-- Đăng xuất -->
                     <a class="dropdown-item" href="logout">Đăng xuất</a>
                 </div>
