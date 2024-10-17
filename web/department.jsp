@@ -47,7 +47,7 @@
                     <div class="col-md-6 pl-md-5 order-md-last">
                         <h2>Gói Cơ Bản (Basic Member)</h2>
                         <h4>Phí:</h4>
-                        <p style="font-size: 2rem;">99.000 VND</p>
+                        <p style="font-size: 2rem;">49.000 VND</p>
                         <h4>Quyền Lợi:</h4>
                         <ul>
                             <li>Truy cập đầy đủ vào tất cả các tài liệu, bài viết, video và podcast.</li>
@@ -75,7 +75,7 @@
                     <div class="col-md-6 pr-md-5">
                         <h2>Gói Cao Cấp (Premium Member)</h2>
                         <h4>Phí:</h4>
-                        <p style="font-size: 2rem;">499.000 VND</p>
+                        <p style="font-size: 2rem;">99.000 VND</p>
                         <h4>Quyền Lợi:</h4>
                         <ul>
                             <li>Tất cả các quyền lợi của gói cơ bản.</li>
@@ -100,7 +100,7 @@
                     <div class="col-md-6 pl-md-5 order-md-last">
                         <h2>Gói Đặc Biệt (Elite Member)</h2>
                         <h4>Phí:</h4>
-                        <p style="font-size: 2rem;">999.000 VND</p>
+                        <p style="font-size: 2rem;">199.000 VND</p>
                         <h4>Quyền Lợi:</h4>
                         <ul>
                             <li>Tất cả các quyền lợi của gói cao cấp.</li>
@@ -123,7 +123,7 @@
                 </div>
             </div>
         </section>
-F        <!-- footer -->
+        <!-- footer -->
         <%@ include file="/folder/footer.jsp" %>
         <!-- end footer -->
 

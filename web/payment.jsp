@@ -21,29 +21,31 @@
         </section>
 
         <section class="ftco-section">
-                    <div class="container">
-                        <h1>Tài khoản tiếp nhận nạp Mind Bridge Point</h1>
-                        <p><strong>CHỦ TÀI KHOẢN:</strong> PHAM THANH HIEU</p>
-                        <p><strong>SỐ TK:</strong> 9704229200345873318</p>
-                        <p><strong>NGÂN HÀNG:</strong> MB BANK (NGÂN HÀNG QUÂN ĐỘI)</p>
-                        <p><strong>NỘI DUNG CHUYỂN:</strong> EMAIL + SDT</p>
-                        <p><strong>Mệnh giá Mind Bridge Point:</strong><br>
-                            1.000 Mind BridgE Point = 1.000 VNĐ</p>
+            <div class="container">
+                <h1>Tài khoản tiếp nhận nạp Mind Bridge Point</h1>
+                <p><strong>CHỦ TÀI KHOẢN:</strong> PHAM THANH HIEU</p>
+                <p><strong>SỐ TK:</strong> 9704229200345873318</p>
+                <p><strong>NGÂN HÀNG:</strong> MB BANK (NGÂN HÀNG QUÂN ĐỘI)</p>
+                <p><strong>NỘI DUNG CHUYỂN:</strong> EMAIL + SDT</p>
+                <p><strong>Mệnh giá Mind Bridge Point:</strong><br>
+                    1.000 Mind BridgE Point = 1.000 VNĐ</p>
 
-                        <p>Vui lòng chuyển đúng nội dung chuyển tiền để tránh trường hợp không nhận được Mind Bridge Point, nếu chuyển sai nội dung vui lòng liên hệ tới
-                            <p> fanpage Facebook <a href="https://www.facebook.com/profile.php?id=61566493175150"> Mind Bridge</a>
-                            để được hỗ trợ.</p>
+                <p>Vui lòng chuyển đúng nội dung chuyển tiền để tránh trường hợp không nhận được Mind Bridge Point, nếu chuyển sai nội dung vui lòng liên hệ tới
+                <p> fanpage Facebook <a href="https://www.facebook.com/profile.php?id=61566493175150"> Mind Bridge</a>
+                    để được hỗ trợ.</p>
 
-                        <p>Sau khi chuyển tiền thành công, vui lòng chờ ít nhất 1 phút để hệ thống xử lý.</p>
+                <p>Sau khi chuyển tiền thành công, vui lòng chờ ít nhất 1 phút để hệ thống xử lý.</p>
+                <p>Hoặc bạn có thể giao dịch bằng thẻ ngân hàng tại<a href="/Mind_Bridge/vnpay_pay.jsp"> Đây.</a>
 
-                        <div class="text-center">
-                            <img src="images/QR.jpg" alt="QR Code" class="qr-code" style="width: 400px; height: auto;"> <!-- Thay đổi đường dẫn hình ảnh -->
-                        </div>
 
-                        <p class="text-center"><strong>HOẶC QUÉT MÃ QR SAU ĐỂ TỰ ĐỘNG ĐIỀN THÔNG TIN</strong></p>
-                    </div>
+                <div class="text-center">
+                    <img src="images/QR.jpg" alt="QR Code" class="qr-code" style="width: 400px; height: auto;"> <!-- Thay đổi đường dẫn hình ảnh -->
+                </div>
+
+                <p class="text-center"><strong>HOẶC QUÉT MÃ QR SAU ĐỂ TỰ ĐỘNG ĐIỀN THÔNG TIN</strong></p>
+            </div>
         </section>
-                <!-- footer -->
+        <!-- footer -->
         <%@ include file="/folder/footer.jsp" %>
         <!-- end footer -->
 
