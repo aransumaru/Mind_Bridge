@@ -125,10 +125,16 @@ public class UserDAO extends DBContext {
             if (rs.next()) {
                 user = new User();
                 user.setUserId(rs.getInt("user_id"));
-                user.setName(rs.getString("name"));
-                user.setPoint(rs.getString("point"));
                 user.setEmail(rs.getString("email"));
+                user.setPassword(rs.getString("password"));
+                user.setName(rs.getString("name"));
+                user.setDateOfBirth(rs.getDate("date_of_birth"));
+                user.setGender(rs.getString("gender"));
+                user.setProfileImage(rs.getString("profile_image"));
                 user.setRole(rs.getString("role"));
+                user.setPhone(rs.getString("phone"));
+                user.setPoint(rs.getString("point"));
+                user.setLevel(rs.getString("level"));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -151,13 +157,21 @@ public class UserDAO extends DBContext {
     public static void main(String[] args) {
         UserDAO userDAO = new UserDAO();
         // Gọi phương thức getAllUsers
-        List<User> users = userDAO.getAllUsers();
+        User user = userDAO.getUserById(1);
 
         // In danh sách người dùng
         System.out.println("Danh sách người dùng:");
-        for (User user : users) {
-            System.out.println("ID: " + user.getUserId() + ", Email: " + user.getEmail() + ", Tên: " + user.getName() + ", Vai trò: " + user.getRole() + ", Level: " + user.getLevel() + ", Point: " + user.getPoint());
-        }
+        System.out.println("ID: " + user.getUserId()
+                + ", Email: " + user.getEmail()
+                + ", Password: " + user.getPassword()
+                + ", Name: " + user.getName()
+                + ", Gender: " + user.getGender()
+                + ", DOB: " + user.getDateOfBirth()
+                + ", Profile Image: " + user.getProfileImage()
+                + ", Role: " + user.getRole()
+                + ", Phone: " + user.getPhone()
+                + ", Point: " + user.getPoint()
+                + ", Level: " + user.getLevel());
     }
 
 }

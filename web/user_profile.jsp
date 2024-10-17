@@ -29,10 +29,10 @@
                             <div class="card-body">
                                 <div class="d-flex flex-column align-items-center text-center">
                                     <!-- User's uploaded profile image -->
-                                    <img src="E:/Study Document/EXE201/Mind_Bridge/web/images/user/ho-hoan-kiem-601baa99700a4.jpg" 
+                                    <img src="${requestScope.user.profileImage}" 
                                          alt="Profile" class="rounded-circle p-1 bg-primary" width="110">
                                     <div class="mt-3">
-                                        <h4>Nguyễn Thành Nam</h4> <!-- User's full name -->
+                                        <h4>${user.name}</h4> <!-- User's full name -->
                                         <button class="btn btn-outline-primary">Message</button>
                                     </div>
                                 </div>
@@ -48,7 +48,26 @@
                                         <h6 class="mb-0">Full Name</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="text" class="form-control" value="Nguyễn Thành Nam" required>
+                                        <input type="text" class="form-control" value="${requestScope.user.name}" required>
+                                    </div>
+                                </div>
+
+                                <!-- Display phone number -->
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Phone</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="${requestScope.user.phone}" required>
+                                    </div>
+                                </div>
+                                <!-- Display DOB -->
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">DOB</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="${requestScope.user.dateOfBirth  }" required>
                                     </div>
                                 </div>
                                 <!-- Display email -->
@@ -57,16 +76,7 @@
                                         <h6 class="mb-0">Email</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="email" class="form-control" value="dung7v3@gmail.com" required>
-                                    </div>
-                                </div>
-                                <!-- Display phone number -->
-                                <div class="row mb-3">
-                                    <div class="col-sm-3">
-                                        <h6 class="mb-0">Phone</h6>
-                                    </div>
-                                    <div class="col-sm-9 text-secondary">
-                                        <input type="text" class="form-control" value="0 324 192 111" required>
+                                        <input type="email" class="form-control" value="${requestScope.user.email}" required>
                                     </div>
                                 </div>
                                 <!-- Add password field for changing password -->
@@ -75,7 +85,7 @@
                                         <h6 class="mb-0">Password</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="password" class="form-control" value="12" required>
+                                        <input type="password" class="form-control" value="${requestScope.user.password}" required>
                                     </div>
                                 </div>
                                 <!-- Save button -->

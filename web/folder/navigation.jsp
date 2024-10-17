@@ -75,7 +75,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <!-- Trang cá nhân -->
-                    <a class="dropdown-item" href="user_profile.jsp">Trang cá nhân</a>
+                    <a class="dropdown-item" href="user_profile">Trang cá nhân</a>
                     <!-- Đặt lịch hẹn -->
                     <a class="dropdown-item" href="order">Đặt lịch hẹn</a>
                     <!-- Đăng xuất -->
