@@ -8,12 +8,12 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Cổng thanh toán VNPAY DEMO</title>
+        <title>Cổng thanh toán VNPAY</title>
         <!-- Bootstrap core CSS -->
-        <link href="/vnpay_jsp/assets/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/Mind_Bridge/assets/bootstrap.min.css" rel="stylesheet"/>
         <!-- Custom styles for this template -->
-        <link href="/vnpay_jsp/assets/jumbotron-narrow.css" rel="stylesheet">      
-        <script src="/vnpay_jsp/assets/jquery-1.11.3.min.js"></script>
+        <link href="/Mind_Bridge/assets/jumbotron-narrow.css" rel="stylesheet">      
+        <script src="/Mind_Bridge/assets/jquery-1.11.3.min.js"></script>
     </head>
 
     <body>
@@ -21,17 +21,12 @@
          <div class="container">
            <div class="header clearfix">
 
-                <h3 class="text-muted">VNPAY DEMO</h3>
+                <h3 class="text-muted">VNPAY</h3>
             </div>
                 <div class="form-group">
                     <button onclick="pay()">Giao dịch thanh toán</button><br>
                 </div>
-                <div class="form-group">
-                    <button onclick="querydr()">API truy vấn kết quả thanh toán</button><br>
-                </div>
-                <div class="form-group">
-                    <button onclick="refund()">API hoàn tiền giao dịch</button><br>
-                </div>
+
             <p>
                 &nbsp;
             </p>
@@ -41,13 +36,13 @@
         </div> 
         <script>
              function pay() {
-              window.location.href = "/vnpay_jsp/vnpay_pay.jsp";
+              window.location.href = "/Mind_Bridge/vnpay_pay.jsp";
             }
             function querydr() {
-              window.location.href = "/vnpay_jsp/vnpay_querydr.jsp";
+              window.location.href = "/Mind_Bridge/vnpay_querydr.jsp";
             }
              function refund() {
-              window.location.href = "/vnpay_jsp/vnpay_refund.jsp";
+              window.location.href = "/Mind_Bridge/vnpay_refund.jsp";
             }
         </script>
     </body>

@@ -11,6 +11,7 @@
 <%@page import="java.util.Enumeration"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.util.HashMap"%>
+<%@page import="Dao.UserDAO"%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +24,11 @@
         <meta name="author" content="">
         <title>KẾT QUẢ THANH TOÁN</title>
         <!-- Bootstrap core CSS -->
-        <link href="/vnpay_jsp/assets/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/Mind_Bridge/assets/bootstrap.min.css" rel="stylesheet"/>
         <!-- Custom styles for this template -->
-        <link href="/vnpay_jsp/assets/jumbotron-narrow.css" rel="stylesheet"> 
-        <script src="/vnpay_jsp/assets/jquery-1.11.3.min.js"></script>
+        <link href="/Mind_Bridge/assets/jumbotron-narrow.css" rel="stylesheet"> 
+        <script src="/Mind_Bridge/assets/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </head>
     <body>
         <%
@@ -48,7 +50,9 @@
                 fields.remove("vnp_SecureHash");
             }
             String signValue = Config.hashAllFields(fields);
+            UserDAO userDAO = new UserDAO();
 
+        Integer userId = (Integer) session.getAttribute("userId");
         %>
         <!--Begin display -->
         <div class="container">
@@ -86,19 +90,37 @@
                 </div> 
                 <div class="form-group">
                     <label >Tình trạng giao dịch:</label>
-                    <label>
+                    
+
                         <%
                             if (signValue.equals(vnp_SecureHash)) {
                                 if ("00".equals(request.getParameter("vnp_TransactionStatus"))) {
-                                    out.print("Thành công");
+    if (userId != null) {
+        // Lấy số tiền và tính điểm
+        long amount = Long.parseLong(request.getParameter("vnp_Amount"));
+        long pointsToAdd = amount / 100; // Tỷ lệ 1 đồng = 1 point
+        
+        // Thêm điểm cho người dùng
+        userDAO.addPointByUserId(userId, pointsToAdd);
+%>
+        <div class="alert alert-success"> Giao dịch thành công! Bạn sẽ được chuyển hướng trong 5 giây.</div>
+        
+        <script>
+            setTimeout(function() {
+                window.location.href = "user_profile";
+            }, 5000); // Chuyển hướng sau 5 giây
+        </script>
+<%
+    } else {
+        out.print("User ID không tồn tại trong session.");
+    }
                                 } else {
                                     out.print("Không thành công");
                                 }
-
                             } else {
                                 out.print("invalid signature");
                             }
-                        %></label>
+                        %>
                 </div> 
             </div>
             <p>

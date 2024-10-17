@@ -21,7 +21,7 @@ public class User {
     private String role;
     private String phone; // New phone field
     private String point;
-    private String level;
+    private int level;
 
     public String getPoint() {
         return point;
@@ -31,11 +31,11 @@ public class User {
         this.point = point;
     }
 
-    public String getLevel() {
+    public int getLevel() {
         return level;
     }
 
-    public void setLevel(String level) {
+    public void setLevel(int level) {
         this.level = level;
     }
     
