@@ -45,7 +45,7 @@ public class TherapistDAO extends DBContext {
                 user.setRole(rs.getString("role"));
                 user.setPhone(rs.getString("phone"));
                 user.setPoint(rs.getString("point"));
-                user.setLevel(rs.getString("level"));
+                user.setLevel(rs.getInt("level"));
 
                 therapist.setUser(user);
 
@@ -107,7 +107,7 @@ public class TherapistDAO extends DBContext {
                 user.setRole(rs.getString("role"));
                 user.setPhone(rs.getString("phone"));
                 user.setPoint(rs.getString("point"));
-                user.setLevel(rs.getString("level"));
+                user.setLevel(rs.getInt("level"));
 
                 // Gán đối tượng user vào therapist
                 therapist.setUser(user);

@@ -134,7 +134,7 @@ public class UserDAO extends DBContext {
                 user.setRole(rs.getString("role"));
                 user.setPhone(rs.getString("phone"));
                 user.setPoint(rs.getString("point"));
-                user.setLevel(rs.getString("level"));
+                user.setLevel(rs.getInt("level"));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -180,6 +180,20 @@ public class UserDAO extends DBContext {
             e.printStackTrace();
         }
     }
+    public void updateUserLevelAndPoints(int level,long usedPoints, int userId) {
+    String sql = "UPDATE [User] SET level = ?, point = point - ? WHERE user_id = ?";
+
+    try {
+        PreparedStatement ps = connection.prepareStatement(sql);
+        ps.setInt(1, level);
+        ps.setLong(2, usedPoints); // Sử dụng long để đảm bảo trừ đúng số điểm
+        ps.setInt(3, userId);
+        ps.executeUpdate();
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
+}
+
 
     public static void main(String[] args) {
         UserDAO userDAO = new UserDAO();
