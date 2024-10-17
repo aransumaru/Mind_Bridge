@@ -42,6 +42,7 @@ public class LoginServlet extends HttpServlet {
             // User authenticated, proceed with login
             HttpSession session = request.getSession();
             session.setAttribute("user", user);
+            session.setAttribute("userId", user.getUserId());
             session.setAttribute("role", user.getRole());
             response.sendRedirect("index.jsp");
         } else {
