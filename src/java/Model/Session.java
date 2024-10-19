@@ -20,6 +20,12 @@ public class Session {
     private String sessionNotes;
     private String feedback;
 
+
+    public Session(int userId, int therapistId, java.sql.Date sessionDate, Time sessionTime, Object object, Object object0) {
+
+    }
+
+    
     // Getters and Setters
     public int getSessionId() {
         return sessionId;
