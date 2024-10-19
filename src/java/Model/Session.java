@@ -14,6 +14,7 @@ import java.util.Date;
 public class Session {
     private int sessionId;
     private int userId;
+    private String userName;
     private int therapistId;
     private Date sessionDate;
     private Time sessionTime;
@@ -23,6 +24,18 @@ public class Session {
 
     public Session(int userId, int therapistId, java.sql.Date sessionDate, Time sessionTime, Object object, Object object0) {
 
+    }
+
+    public Session() {
+        
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     
