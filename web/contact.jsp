@@ -30,7 +30,7 @@
                                 <div class="col-md-7 d-flex">
                                     <div class="contact-wrap w-100 p-md-5 p-4">
                                         <h3 class="mb-4">Liên hệ với chúng tôi</h3>
-                                        <form method="POST" id="contactForm" class="contactForm">
+                                        <form id="contactForm" class="contactForm">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
@@ -54,7 +54,7 @@
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <input type="submit" value="Gửi tin nhắn" class="btn btn-primary">
+                                                        <input type="submit" onclick="sendMail()" value="Gửi tin nhắn" class="btn btn-primary">
                                                         <div class="submitting"></div>
                                                     </div>
                                                 </div>
@@ -129,6 +129,14 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
         <script src="js/google-map.js"></script>
         <script src="js/main.js"></script>
-
+        <script src="js/contact.js"></script>
+        <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("PAB23-X5mMkeCEyl5");
+            })();
+        </script>
     </body>
 </html>

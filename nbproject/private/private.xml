@@ -3,14 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="Mind_Bridge">
-            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Dao/UserDAO.java</file>
-            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/index.html</file>
-            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Controller/LoginServlet.java</file>
-            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Dao/DBContext.java</file>
-            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/login.jsp</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/gallery.jsp</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Controller/TherapistServlet.java</file>
             <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/WEB-INF/web.xml</file>
-            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Controller/LogoutServlet.java</file>
-            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Model/User.java</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Model/Session.java</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/web/therapist.jsp</file>
+            <file>file:/E:/Study%20Document/EXE201/Mind_Bridge/src/java/Dao/SessionDAO.java</file>
         </group>
         <group/>
     </open-files>

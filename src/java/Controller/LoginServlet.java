@@ -30,21 +30,26 @@ public class LoginServlet extends HttpServlet {
         // Log to check if form data is being received
         String email = request.getParameter("email");
         String password = request.getParameter("password");
-        
+
         System.out.println("Login attempt with email: " + email);  // Ensure this prints email correctly
         System.out.println("Password entered: " + password);
-        
+
         // Call the DAO for user authentication
         UserDAO userDAO = new UserDAO();
         User user = userDAO.login(email, password);  // Implement the login method in your DAO
 
         if (user != null) {
             // User authenticated, proceed with login
-            HttpSession session = request.getSession();
+            HttpSession session = request.getSession(true);
             session.setAttribute("user", user);
             session.setAttribute("userId", user.getUserId());
             session.setAttribute("role", user.getRole());
-            response.sendRedirect("index.jsp");
+            if ("Khách hàng".equals(user.getRole())) {
+                response.sendRedirect("index.jsp");  // Redirect to index for customers
+            } else if ("Nhà điều trị tâm lý".equals(user.getRole())) {
+                // Use getTherapistID() to redirect to therapist page
+                response.sendRedirect("therapist");
+            }
         } else {
             // Failed login attempt
             request.setAttribute("errorMessage", "Sai email hoặc mật khẩu. Vui lòng thử lại.");
@@ -53,3 +58,4 @@ public class LoginServlet extends HttpServlet {
     }
 
 }
+
