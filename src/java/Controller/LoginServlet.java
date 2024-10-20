@@ -46,12 +46,16 @@ public class LoginServlet extends HttpServlet {
             session.setAttribute("role", user.getRole());
             if ("Khách hàng".equals(user.getRole())) {
                 response.sendRedirect("index.jsp");  // Redirect to index for customers
-            } else {
-                // Failed login attempt
-                request.setAttribute("errorMessage", "Sai email hoặc mật khẩu. Vui lòng thử lại.");
-                request.getRequestDispatcher("login.jsp").forward(request, response);
+            } else if ("Nhà điều trị tâm lý".equals(user.getRole())) {
+                // Use getTherapistID() to redirect to therapist page
+                response.sendRedirect("therapist");
             }
+        } else {
+            // Failed login attempt
+            request.setAttribute("errorMessage", "Sai email hoặc mật khẩu. Vui lòng thử lại.");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
         }
-
     }
+
 }
+
