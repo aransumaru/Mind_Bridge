@@ -1,8 +1,3 @@
-<%-- 
-    Document   : order
-    Created on : Oct 15, 2024, 2:16:30 PM
-    Author     : Admin
---%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -30,7 +25,7 @@
                             <div class="col-md-8 bg-primary p-5 heading-section heading-section-white">
                                 <span class="subheading">Đặt Lịch Hẹn</span>
                                 <h2 class="mb-4">Tư Vấn Đặc Biệt</h2>
-                                <form action="#" class="appointment">
+                                <form action="order" method="post" class="appointment">
                                     <div class="row justify-content-center">
                                         <div class="col-md-6">
                                             <div class="form-group">
