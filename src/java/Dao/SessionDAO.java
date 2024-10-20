@@ -60,28 +60,29 @@ public class SessionDAO extends DBContext {
     }
 
     // Method to get sessions for a specific therapist by therapist_id
-    public List<Session> getSessionsByTherapistId(int therapistId) {
+    public List<Session> getSessionsByTherapistId() {
         List<Session> sessions = new ArrayList<>();
         String sql = "SELECT "
                 + "s.session_id, "
                 + "u.name AS user_name, "
+                + "t_user.name AS therapist_name, " // Lấy tên therapist
                 + "s.session_date, "
                 + "s.session_time, "
                 + "s.session_notes, "
                 + "s.feedback "
                 + "FROM [Session] s "
                 + "JOIN [User] u ON s.user_id = u.user_id "
-                + "WHERE s.therapist_id = ?";
+                + "LEFT JOIN [Therapist] t ON s.therapist_id = t.therapist_id "
+                + "LEFT JOIN [User] t_user ON t.user_id = t_user.user_id"; // JOIN để lấy tên therapist
 
-        try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
 
-            pstmt.setInt(1, therapistId); // Bind the therapist_id to the prepared statement
-            ResultSet rs = pstmt.executeQuery();
+        try (PreparedStatement pstmt = connection.prepareStatement(sql); ResultSet rs = pstmt.executeQuery();) {
 
             while (rs.next()) {
                 Session session = new Session();
                 session.setSessionId(rs.getInt("session_id"));
                 session.setUserName(rs.getString("user_name"));
+                session.setTherapistName(rs.getString("therapist_name"));
                 session.setSessionDate(rs.getDate("session_date"));
                 session.setSessionTime(rs.getTime("session_time"));
                 session.setSessionNotes(rs.getString("session_notes"));

@@ -28,8 +28,8 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th>Session ID</th>
                                 <th>User Name</th>
+                                <th>Therapist</th>
                                 <th>Session Date</th>
                                 <th>Session Time</th>
                                 <th>Session Notes</th>
@@ -39,8 +39,8 @@
                         <tbody>
                             <c:forEach var="session" items="${sessions}">
                                 <tr>
-                                    <td>${session.sessionId}</td>
                                     <td>${session.userName}</td>
+                                    <td>${session.therapistName}</td>
                                     <td>${session.sessionDate}</td>
                                     <td>${session.sessionTime}</td>
                                     <td>${session.sessionNotes}</td>

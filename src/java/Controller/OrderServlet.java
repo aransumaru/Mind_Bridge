@@ -15,6 +15,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import java.io.PrintWriter;
 import java.sql.Date;
 import java.sql.SQLException;
@@ -90,28 +91,56 @@ public class OrderServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Lấy dữ liệu từ form
-        // Lấy dữ liệu từ form
-        String customerName = request.getParameter("customer_name");
-        System.out.println("Customer Name: " + customerName);
 
-        String phone = request.getParameter("phone");
-        System.out.println("Phone: " + phone);
+        // Kiểm tra xem người dùng đã đăng nhập chưa
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+        if (userId == null) {
+            request.setAttribute("error", "Bạn cần đăng nhập trước khi đặt lịch.");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+            return;
+        }
 
-        int therapistId = Integer.parseInt(request.getParameter("therapist_id"));
+        String therapistIdParam = request.getParameter("therapist_id");
+        if (therapistIdParam == null) {
+            request.setAttribute("error", "Bạn cần chọn một therapist.");
+            request.getRequestDispatcher("order.jsp").forward(request, response);
+            return;
+        }
+
+        int therapistId = Integer.parseInt(therapistIdParam);
         System.out.println("Therapist ID: " + therapistId);
 
-        Date sessionDate = Date.valueOf(request.getParameter("session_date")); // Chuyển đổi thành Date
+        String sessionDateParam = request.getParameter("session_date");
+        if (sessionDateParam == null) {
+            request.setAttribute("error", "Ngày phiên không hợp lệ.");
+            request.getRequestDispatcher("order.jsp").forward(request, response);
+            return;
+        }
+        Date sessionDate = Date.valueOf(sessionDateParam); // Chuyển đổi thành Date
         System.out.println("Session Date: " + sessionDate);
 
-        Time sessionTime = Time.valueOf(request.getParameter("session_time")); // Chuyển đổi thành Time
-        System.out.println("Session Time: " + sessionTime);
+        String sessionTimeString = request.getParameter("session_time");
+        if (sessionTimeString == null) {
+            request.setAttribute("error", "Thời gian phiên không hợp lệ.");
+            request.getRequestDispatcher("order.jsp").forward(request, response);
+            return;
+        }
 
-// Giả sử bạn có thông tin user_id từ session đăng nhập
-        int userId = (int) request.getSession().getAttribute("user_id"); // Lấy từ session đăng nhập của người dùng
-        System.out.println("User ID: " + userId);
+        Time sessionTime = null;
 
-// Tạo session object
+// Thêm ":00" vào cuối chuỗi thời gian
+        sessionTimeString += ":00"; // Đảm bảo định dạng là HH:mm:ss
+
+// Validate and convert the session time
+        try {
+            sessionTime = Time.valueOf(sessionTimeString); // This now includes seconds
+        } catch (IllegalArgumentException e) {
+            request.setAttribute("error", "Invalid time format. Please use HH:mm.");
+            request.getRequestDispatcher("order.jsp").forward(request, response);
+            return; // Exit if there's an error
+        }
+
+        // Tạo session object
         Session session = new Session(userId, therapistId, sessionDate, sessionTime, null, null);
         System.out.println("Session Object Created: " + session);
 

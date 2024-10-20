@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 
         if (user != null) {
             // User authenticated, proceed with login
-            HttpSession session = request.getSession();
+            HttpSession session = request.getSession(true);
             session.setAttribute("user", user);
             session.setAttribute("userId", user.getUserId());
             session.setAttribute("role", user.getRole());

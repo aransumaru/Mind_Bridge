@@ -59,14 +59,10 @@ public class TherapistServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        // Get the therapist_id from request parameters
-        int therapistId = Integer.parseInt(request.getParameter("therapist_id"));
-        
-        // Create an instance of SessionDAO
         SessionDAO sessionDAO = new SessionDAO();
         
         // Get sessions for the specified therapist
-        List<Session> sessions = sessionDAO.getSessionsByTherapistId(therapistId);
+        List<Session> sessions = sessionDAO.getSessionsByTherapistId();
         
         // Set the sessions list as a request attribute
         request.setAttribute("sessions", sessions);
