@@ -15,20 +15,27 @@ public class Session {
     private int sessionId;
     private int userId;
     private String userName;
+    private String therapistName;
     private int therapistId;
     private Date sessionDate;
     private Time sessionTime;
     private String sessionNotes;
     private String feedback;
 
-
-    public Session(int userId, int therapistId, java.sql.Date sessionDate, Time sessionTime, Object object, Object object0) {
-
-    }
+    public Session(int userId, int therapistId, java.sql.Date sessionDate, Time sessionTime, String sessionNotes, String feedback) {
+    this.userId = userId;
+    this.therapistId = therapistId;
+    this.sessionDate = sessionDate;
+    this.sessionTime = sessionTime;
+    this.sessionNotes = sessionNotes;
+    this.feedback = feedback;
+}
 
     public Session() {
         
     }
+
+
 
     public String getUserName() {
         return userName;
@@ -55,6 +62,15 @@ public class Session {
     public void setUserId(int userId) {
         this.userId = userId;
     }
+
+    public String getTherapistName() {
+        return therapistName;
+    }
+
+    public void setTherapistName(String therapistName) {
+        this.therapistName = therapistName;
+    }
+    
 
     public int getTherapistId() {
         return therapistId;
