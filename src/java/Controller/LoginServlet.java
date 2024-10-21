@@ -44,6 +44,7 @@ public class LoginServlet extends HttpServlet {
             session.setAttribute("user", user);
             session.setAttribute("userId", user.getUserId());
             session.setAttribute("role", user.getRole());
+            session.setAttribute("level", user.getLevel());
             if ("Khách hàng".equals(user.getRole())) {
                 response.sendRedirect("index.jsp");  // Redirect to index for customers
             } else if ("Nhà điều trị tâm lý".equals(user.getRole())) {

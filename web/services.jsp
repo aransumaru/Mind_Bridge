@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:useBean id="user" class="Model.User" scope="session" />
 <!DOCTYPE html>
 <html lang="vi">
 <html lang="vi">

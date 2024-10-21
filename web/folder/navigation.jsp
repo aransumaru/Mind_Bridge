@@ -77,7 +77,9 @@
                     <!-- Trang cá nhân -->
                     <a class="dropdown-item" href="user_profile">Trang cá nhân</a>
                     <!-- Đặt lịch hẹn -->
-                    <a class="dropdown-item" href="order">Đặt lịch hẹn</a>
+                    <c:if test="${user.level == 2}">
+                        <a class="dropdown-item" href="order">Đặt lịch hẹn</a>
+                    </c:if>
                     <!-- Đăng xuất -->
                     <a class="dropdown-item" href="logout">Đăng xuất</a>
                 </div>
