@@ -28,30 +28,31 @@
                 <div class="row">
                     <div class="col-lg-8 ftco-animate">
                         <p>
-                            <img src="images/image_1.jpg" alt="" class="img-fluid">
+                            <img src="images/image_3.jpg" alt="" class="img-fluid">
                         </p>
-                        <h2 class="mb-3">Điều Cần Biết Về Phục Hồi Tâm Lý Sau Chấn Thương</h2>
-                        <p>Phục hồi tâm lý sau chấn thương là một quá trình quan trọng giúp nạn nhân vượt qua những tổn thương tâm lý và cảm xúc do trải nghiệm đau thương. Chấn thương có thể xuất phát từ nhiều nguyên nhân khác nhau như tai nạn, bạo lực, hoặc thiên tai. Dưới đây là một số điểm cần lưu ý trong quá trình phục hồi:</p>
+                        <h2 class="mb-3">Tác Động Của Tâm Lý Đến Sức Khỏe Thể Chất</h2>
+                        <p>Tâm lý con người có mối liên hệ mật thiết với sức khỏe thể chất. Nghiên cứu cho thấy rằng trạng thái tâm lý có thể ảnh hưởng đến các chỉ số sức khỏe, từ khả năng miễn dịch đến nguy cơ mắc các bệnh lý nghiêm trọng. Dưới đây là một số tác động nổi bật:</p>
                         <ul>
-                            <li><strong>Chấp nhận cảm xúc:</strong> Nạn nhân cần thừa nhận và chấp nhận các cảm xúc tiêu cực như sợ hãi, buồn bã, hoặc tức giận để có thể xử lý chúng.</li>
-                            <li><strong>Tham gia vào hoạt động xã hội:</strong> Kết nối với bạn bè và gia đình có thể giúp nạn nhân cảm thấy được hỗ trợ và không đơn độc.</li>
-                            <li><strong>Thực hành tự chăm sóc:</strong> Chăm sóc bản thân thông qua việc ăn uống lành mạnh, tập thể dục và nghỉ ngơi đầy đủ.</li>
-                            <li><strong>Tìm kiếm sự hỗ trợ chuyên nghiệp:</strong> Nếu cảm xúc quá mạnh mẽ hoặc kéo dài, tìm đến các chuyên gia tâm lý để được tư vấn và hỗ trợ.</li>
+                            <li><strong>Stress và hệ miễn dịch:</strong> Căng thẳng kéo dài có thể làm suy yếu hệ miễn dịch, khiến cơ thể dễ mắc bệnh hơn.</li>
+                            <li><strong>Tâm trạng và cảm xúc:</strong> Tâm trạng tích cực có thể cải thiện sức khỏe tim mạch, trong khi tâm trạng tiêu cực có thể gây ra các vấn đề về huyết áp.</li>
+                            <li><strong>Thói quen sinh hoạt:</strong> Trạng thái tâm lý ảnh hưởng đến sự lựa chọn trong chế độ ăn uống, hoạt động thể chất, và giấc ngủ.</li>
+                            <li><strong>Giảm đau:</strong> Các liệu pháp tâm lý có thể giúp giảm cảm giác đau và cải thiện khả năng hồi phục của cơ thể.</li>
+                            <li><strong>Chất lượng cuộc sống:</strong> Tâm lý tích cực thường đi kèm với chất lượng cuộc sống tốt hơn và khả năng đối phó với bệnh tật tốt hơn.</li>
                         </ul>
-                        <p>Những bước này sẽ giúp nạn nhân phục hồi và trở lại cuộc sống bình thường, đồng thời tìm thấy sức mạnh nội tại để vượt qua chấn thương.</p>
+                        <p>Việc chăm sóc sức khỏe tâm thần là rất quan trọng, không chỉ để duy trì sức khỏe tinh thần mà còn để hỗ trợ sức khỏe thể chất. Hãy nhớ rằng sự liên kết giữa tâm lý và thể chất là điều không thể tách rời.</p>
 
                         <div class="tag-widget post-tag-container mb-5 mt-5">
                             <div class="tagcloud">
-                                <a href="#" class="tag-cloud-link">Tâm lý học</a>
-                                <a href="#" class="tag-cloud-link">Phục hồi</a>
-                                <a href="#" class="tag-cloud-link">Chấn thương</a>
-                                <a href="#" class="tag-cloud-link">Sức khỏe tâm thần</a>
+                                <a href="#" class="tag-cloud-link">Tâm lý</a>
+                                <a href="#" class="tag-cloud-link">Sức khỏe</a>
+                                <a href="#" class="tag-cloud-link">Căng thẳng</a>
+                                <a href="#" class="tag-cloud-link">Chăm sóc sức khỏe</a>
                             </div>
                         </div>
 
                         <div class="about-author d-flex p-4 bg-light">
                             <div class="bio mr-5">
-                                <img src="images/person_1.jpg" alt="Hình ảnh placeholder" class="img-fluid mb-4">
+                                <img src="images/person_6.jpg" alt="Hình ảnh placeholder" class="img-fluid mb-4">
                             </div>
                             <div class="desc">
                                 <h3>Admin</h3>
@@ -63,36 +64,36 @@
                             <ul class="comment-list">
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_1.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/person_7.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
-                                        <h3>Trần Văn Bình</h3>
-                                        <div class="meta">05 tháng 9, 2024 lúc 10:30 sáng</div>
-                                        <p>Cảm ơn bài viết rất hữu ích! Mình đã trải qua một chấn thương và những thông tin này thật sự giúp ích cho mình rất nhiều.</p>
+                                        <h3>Nguyễn Thị Trang</h3>
+                                        <div class="meta">11 tháng 10, 2024 lúc 1:00 chiều</div>
+                                        <p>Bài viết rất hữu ích! Mình đã nhận thấy sự liên kết giữa tâm trạng của mình và sức khỏe thể chất.</p>
                                         <p><a href="#" class="reply">Trả lời</a></p>
                                     </div>
                                 </li>
 
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_2.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/person_8.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
-                                        <h3>Nguyễn Thị Dung</h3>
-                                        <div class="meta">15 tháng 9, 2024 lúc 3:45 chiều</div>
-                                        <p>Bài viết rất hay và dễ hiểu. Mình thấy việc chấp nhận cảm xúc là rất quan trọng trong quá trình phục hồi.</p>
+                                        <h3>Trần Văn Giang</h3>
+                                        <div class="meta">11 tháng 10, 2024 lúc 2:15 chiều</div>
+                                        <p>Mình đồng ý! Khi mình cảm thấy căng thẳng, sức khỏe của mình cũng giảm sút. Cần chú ý hơn đến sức khỏe tâm lý.</p>
                                         <p><a href="#" class="reply">Trả lời</a></p>
                                     </div>
                                 </li>
 
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_3.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/person_9.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
-                                        <h3>Phạm Minh Duẩn</h3>
-                                        <div class="meta">28 tháng 9, 2024 lúc 1:15 chiều</div>
-                                        <p>Cảm ơn bạn đã chia sẻ! Hy vọng mọi người sẽ tìm thấy sự hỗ trợ cần thiết trong thời gian khó khăn này.</p>
+                                        <h3>Nguyễn Văn Minh</h3>
+                                        <div class="meta">11 tháng 10, 2024 lúc 3:30 chiều</div>
+                                        <p>Bài viết giúp mình nhận ra rằng cần chú trọng cả tâm lý lẫn thể chất. Cảm ơn tác giả!</p>
                                         <p><a href="#" class="reply">Trả lời</a></p>
                                     </div>
                                 </li>
@@ -125,11 +126,11 @@
                         <div class="sidebar-box">
                             <h3>Danh mục</h3>
                             <ul class="categories">
-                                <li><a href="#">Tâm lý học <span>(12)</span></a></li>
-                                <li><a href="#">Chấn thương <span>(22)</span></a></li>
-                                <li><a href="#">Sức khỏe tâm thần <span>(37)</span></a></li>
-                                <li><a href="#">Phục hồi <span>(42)</span></a></li>
-                                <li><a href="#">Chia sẻ <span>(14)</span></a></li>
+                                <li><a href="#">Tâm lý <span>(12)</span></a></li>
+                                <li><a href="#">Sức khỏe <span>(22)</span></a></li>
+                                <li><a href="#">Căng thẳng <span>(37)</span></a></li>
+                                <li><a href="#">Chăm sóc sức khỏe <span>(42)</span></a></li>
+                                <li><a href="#">Sống tích cực <span>(14)</span></a></li>
                             </ul>
                         </div>
 
@@ -157,6 +158,8 @@
                 </div>
             </div>
         </section>
+
+
 
 
         <!-- footer -->

@@ -35,7 +35,7 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-md-3 mb-md-0 mb-4 d-flex align-items-center">
-                <a class="navbar-brand" href="index.jsp">Hòa Tâm</a>
+                <a class="navbar-brand" href="index">Hòa Tâm</a>
             </div>
             <div class="col-md-7">
                 <div class="row">
@@ -92,10 +92,10 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item <%= currentPage.equals(indexPage) ? "active" : "" %>">
-                    <a href="index.jsp" class="nav-link">Trang Chủ</a>
+                    <a href="index" class="nav-link">Trang Chủ</a>
                 </li>
                 <li class="nav-item <%= currentPage.equals(aboutPage) ? "active" : "" %>">
-                    <a href="about.jsp" class="nav-link">Giới Thiệu</a>
+                    <a href="about" class="nav-link">Giới Thiệu</a>
                 </li>
                 <li class="nav-item <%= currentPage.equals(teamPage) ? "active" : "" %>">
                     <a href="team.jsp" class="nav-link">Đội Ngũ</a>
@@ -110,7 +110,7 @@
                     <a href="gallery.jsp" class="nav-link">Thư Viện Ảnh</a>
                 </li>
                 <li class="nav-item <%= currentPage.equals(blogPage) ? "active" : "" %>">
-                    <a href="blog.jsp" class="nav-link">Blog</a>
+                    <a href="blog" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item <%= currentPage.equals(contactPage) ? "active" : "" %>">
                     <a href="contact.jsp" class="nav-link">Liên Hệ</a>

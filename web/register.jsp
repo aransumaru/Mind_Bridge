@@ -23,7 +23,7 @@
         </style>
     </head>
     <body>
-        <a href="index.jsp" class="mind-bridge">MIND BRIDGE</a> <!-- Link to index.jsp -->
+        <a href="index" class="mind-bridge">MIND BRIDGE</a> <!-- Link to index -->
         <div class="container">
             <!-- Title section -->
             <div class="title">Đăng ký</div>
