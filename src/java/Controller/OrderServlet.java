@@ -139,9 +139,12 @@ public class OrderServlet extends HttpServlet {
             request.getRequestDispatcher("order.jsp").forward(request, response);
             return; // Exit if there's an error
         }
+        
+        String sessionNote = request.getParameter("session_notes");
+        System.out.println("Session Note: " + sessionNote);
 
         // Tạo session object
-        Session session = new Session(userId, therapistId, sessionDate, sessionTime, null, null);
+        Session session = new Session(userId, therapistId, sessionDate, sessionTime, sessionNote, null);
         System.out.println("Session Object Created: " + session);
 
         // Gọi SessionDAO để lưu session vào cơ sở dữ liệu

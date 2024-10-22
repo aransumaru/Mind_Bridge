@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:useBean id="user" class="Model.User" scope="session" />
 <!DOCTYPE html>
 <html lang="vi">
     <!-- header -->
@@ -13,7 +14,7 @@
             <div class="container">
                 <div class="row no-gutters slider-text align-items-end">
                     <div class="col-md-9 ftco-animate pb-5">
-                        <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.jsp">Trang chủ <i class="fa fa-chevron-right"></i></a></span> <span>Đội ngũ <i class="fa fa-chevron-right"></i></span></p>
+                        <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index">Trang chủ <i class="fa fa-chevron-right"></i></a></span> <span>Đội ngũ <i class="fa fa-chevron-right"></i></span></p>
                         <h1 class="mb-0 bread">Chuyên gia Tâm lý của chúng tôi</h1>
                     </div>
                 </div>

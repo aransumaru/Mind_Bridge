@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:useBean id="user" class="Model.User" scope="session" />
 <!DOCTYPE html>
 <html lang="vi">
     <!-- header -->
@@ -65,6 +66,11 @@
                                                 <div class="input-wrap">
                                                     <input type="time" class="form-control" name="session_time" placeholder="Giờ" required>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="message" class="form-control" name="note" placeholder="Note">
                                             </div>
                                         </div>
                                         <div class="col-md-6">

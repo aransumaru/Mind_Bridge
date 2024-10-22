@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:useBean id="user" class="Model.User" scope="session" />
 <!DOCTYPE html>
 <html lang="vi">
 <html lang="vi">
@@ -14,7 +15,7 @@
             <div class="container">
                 <div class="row no-gutters slider-text align-items-end">
                     <div class="col-md-9 ftco-animate pb-5">
-                        <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.jsp">Trang chủ <i class="fa fa-chevron-right"></i></a></span> <span>Dịch vụ <i class="fa fa-chevron-right"></i></span></p>
+                        <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index">Trang chủ <i class="fa fa-chevron-right"></i></a></span> <span>Dịch vụ <i class="fa fa-chevron-right"></i></span></p>
                         <h1 class="mb-0 bread">Dịch vụ</h1>
                     </div>
                 </div>
@@ -86,6 +87,7 @@
                                 <p>Cung cấp dịch vụ hỗ trợ kiểm tra tâm lý miễn phí qua Bài Test đánh giá Lo âu - Trầm cảm - Stress (DASS 21) tại <a href="quiz.jsp">Đây</a>.</p>
                             </div>
                         </div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeeBeYZUISzl_uCnnuHvYCAlPJCRcH4SyeX8N23Xu00TSIhcg/viewform?usp=sharing" class="btn btn-primary">Đánh giá</a>
                     </div>
                 </div>
             </div>
