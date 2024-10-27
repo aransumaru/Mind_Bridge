@@ -55,16 +55,16 @@
                             <h4>Phí:</h4>
                             <p style="font-size: 2rem;">49.000 VND</p>
                             <h4>Quyền Lợi:</h4>
+                            <h5>Bác sĩ</h5>
+                            <ul>
+                                <li>Phù hợp cho sinh viên năm cuối hoặc những bác sĩ mới ra trường, cung cấp môi trường thực hành và hỗ trợ trong công tác tư vấn tâm lý ban đầu.</li>
+                            </ul>
+                            <h5>Khách hàng</h5>
                             <ul>
                                 <li>Truy cập đầy đủ vào tất cả các tài liệu, bài viết, video và podcast.</li>
-                                <li>Tham gia các hoạt động chữa lành tâm lý cộng đồng trực tuyến.</li>
                                 <li>Sử dụng các công cụ tự giúp đỡ và nhận được phản hồi từ nhà điều trị.</li>
-                                <li>Một buổi tư vấn trực tuyến nhóm mỗi tháng với nhà điều trị.</li>
-                                <li>Hàng chờ ưu tiên cấp 1 khi tìm và hẹn các nhà điều trị tâm lý.</li>
-                            </ul>
-                            <h4>Hạn Chế:</h4>
-                            <ul>
-                                <li>Số lượng buổi tư vấn trực tuyến cá nhân hạn chế.</li>
+                                <li>Các buổi trị liệu kéo dài 1 tiếng, giúp khách hàng hiểu hơn về bản thân và giải quyết các vấn đề tâm lý cơ bản.</li>
+                                <li>Thích hợp cho những người có nhu cầu tư vấn sức khỏe tâm lý nhưng chưa cần chuyên sâu.</li>
                             </ul>
                             <input type="hidden" name="package" value="basic">
                             <%
@@ -85,13 +85,16 @@
                             <h4>Phí:</h4>
                             <p style="font-size: 2rem;">99.000 VND</p>
                             <h4>Quyền Lợi:</h4>
+                            <h5>Bác sĩ</h5>
                             <ul>
-                                <li>Tất cả các quyền lợi của gói cơ bản.</li>
-                                <li>Số lượng buổi tư vấn trực tuyến cá nhân từ 1 đến 2 buổi mỗi tháng.</li>
-                                <li>Tham gia các hoạt động chữa lành tâm lý đặc biệt với các dịch vụ liên kết như yoga, thiền định, và các lớp học nghệ thuật trị liệu.</li>
-                                <li>Ưu tiên hỗ trợ từ đội ngũ chuyên gia.</li>
-                                <li>Truy cập vào các công cụ và bài tập nâng cao.</li>
-                                <li>Hàng chờ ưu tiên cấp 2 khi tìm và hẹn các nhà điều trị tâm lý.</li>
+                                <li>Thích hợp cho các bác sĩ không chuyên, hỗ trợ trong việc mở rộng phạm vi dịch vụ và gia tăng trải nghiệm thực tế.</li>
+                            </ul>
+                            <h5>Khách hàng</h5>
+                            <ul>
+                                <li>Truy cập đầy đủ vào tất cả các tài liệu, bài viết, video và podcast.</li>
+                                <li>Sử dụng các công cụ tự giúp đỡ và nhận được phản hồi từ nhà điều trị.</li>
+                                <li>Thời lượng buổi trị liệu tùy theo sự sắp xếp của bác sĩ, có thể linh hoạt để phù hợp với từng trường hợp cụ thể.</li>
+                                <li>Được thiết kế cho khách hàng cần tư vấn cụ thể hơn nhưng chưa cần sự chăm sóc đặc biệt.</li>
                             </ul>
                             <input type="hidden" name="package" value="premium">
                             <%
@@ -112,14 +115,16 @@
                             <h4>Phí:</h4>
                             <p style="font-size: 2rem;">199.000 VND</p>
                             <h4>Quyền Lợi:</h4>
+                            <h5>Bác sĩ</h5>
                             <ul>
-                                <li>Tất cả các quyền lợi của gói cao cấp.</li>
-                                <li>Số lượng buổi tư vấn trực tuyến cá nhân từ 3 đến 4 buổi mỗi tháng.</li>
-                                <li>Quyền truy cập vào tất cả các hoạt động chữa lành tâm lý đặc biệt và dịch vụ liên kết không giới hạn.</li>
-                                <li>Tư vấn cá nhân với các chuyên gia hàng đầu trong lĩnh vực.</li>
-                                <li>Dịch vụ hỗ trợ khẩn cấp 24/7.</li>
-                                <li>Các bài tập và chương trình tùy chỉnh hoàn toàn theo tình trạng cá nhân.</li>
-                                <li>Hàng chờ ưu tiên cao nhất (cấp 3) khi tìm và hẹn các nhà điều trị tâm lý.</li>
+                                <li>Dành cho các bác sĩ có chuyên môn cao, đã trải qua đào tạo bài bản trong ngành tâm lý trị liệu, hỗ trợ nâng cao uy tín và xây dựng thương hiệu cá nhân.</li>
+                            </ul>
+                            <h5>Khách hàng</h5>
+                            <ul>
+                                <li>Truy cập đầy đủ vào tất cả các tài liệu, bài viết, video và podcast.</li>
+                                <li>Sử dụng các công cụ tự giúp đỡ và nhận được phản hồi từ nhà điều trị.</li>
+                                <li>Thời lượng các buổi trị liệu được tùy chỉnh theo yêu cầu và chỉ định của bác sĩ để đảm bảo chất lượng tốt nhất.</li>
+                                <li>Phù hợp với khách hàng cần tư vấn chuyên sâu, đặc biệt là những người cần được chăm sóc kỹ lưỡng và liên tục trong các vấn đề tâm lý.</li>
                             </ul>
                             <input type="hidden" name="package" value="elite">
                             <%
