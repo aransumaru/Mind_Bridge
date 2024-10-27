@@ -120,8 +120,11 @@ public class OrderServlet extends HttpServlet {
         System.out.println("Session Date: " + sessionDate);
 
         String sessionTimeString = request.getParameter("session_time");
+        System.out.println("Original session time string from request: " + sessionTimeString);
+
         if (sessionTimeString == null) {
             request.setAttribute("error", "Thời gian phiên không hợp lệ.");
+            System.out.println("Session time is null. Redirecting to order.jsp with error.");
             request.getRequestDispatcher("order.jsp").forward(request, response);
             return;
         }
@@ -130,21 +133,24 @@ public class OrderServlet extends HttpServlet {
 
 // Thêm ":00" vào cuối chuỗi thời gian
         sessionTimeString += ":00"; // Đảm bảo định dạng là HH:mm:ss
+        System.out.println("Updated session time string with seconds added: " + sessionTimeString);
 
 // Validate and convert the session time
         try {
             sessionTime = Time.valueOf(sessionTimeString); // This now includes seconds
+            System.out.println("Converted session time: " + sessionTime);
         } catch (IllegalArgumentException e) {
             request.setAttribute("error", "Invalid time format. Please use HH:mm.");
+            System.out.println("Invalid time format. Redirecting to order.jsp with error.");
             request.getRequestDispatcher("order.jsp").forward(request, response);
             return; // Exit if there's an error
         }
-        
-        String sessionNote = request.getParameter("session_notes");
-        System.out.println("Session Note: " + sessionNote);
+
+        String sessionNotes = request.getParameter("session_notes");
+        System.out.println("Session Note: " + sessionNotes);
 
         // Tạo session object
-        Session session = new Session(userId, therapistId, sessionDate, sessionTime, sessionNote, null);
+        Session session = new Session(userId, therapistId, sessionDate, sessionTime, sessionNotes, null);
         System.out.println("Session Object Created: " + session);
 
         // Gọi SessionDAO để lưu session vào cơ sở dữ liệu

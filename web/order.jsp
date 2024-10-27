@@ -70,7 +70,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="message" class="form-control" name="note" placeholder="Note">
+                                                <input type="message" class="form-control" name="session_notes" placeholder="Note">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
