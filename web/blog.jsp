@@ -10,7 +10,7 @@
         <%@ include file="/folder/navigation.jsp" %>
         <!-- end navigation -->
         <!-- END nav -->
-        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/logo1.jpg');" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text align-items-end">
@@ -27,11 +27,11 @@
                 <div class="row">
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="#" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
+                            <a href="#" class="block-20 rounded" style="background-image: url('images/6.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_2.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/user8.jpg);"></div>
                                     <div class="desc pl-3">
                                         <span>Được đăng bởi Admin</span>
                                         <span>9 Tháng 10, 2024</span>
@@ -47,11 +47,11 @@
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="#" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
+                            <a href="#" class="block-20 rounded" style="background-image: url('images/7.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_3.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/user8.jpg);"></div>
                                     <div class="desc pl-3">
                                         <span>Được đăng bởi Admin</span>
                                         <span>11 Tháng 10, 2024</span>
@@ -67,11 +67,11 @@
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="#" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
+                            <a href="#" class="block-20 rounded" style="background-image: url('images/9.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/user8.jpg);"></div>
                                     <div class="desc pl-3">
                                         <span>Được đăng bởi Admin</span>
                                         <span>11 Tháng 10, 2024</span>

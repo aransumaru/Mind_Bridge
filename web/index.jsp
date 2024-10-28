@@ -121,115 +121,6 @@
             </div>
         </section>
 
-
-        <section class="ftco-section ftco-no-pb ftco-no-pt">
-            <div class="container-fluid px-md-0">
-                <div class="row no-gutters justify-content-center pb-5 mb-3">
-                    <div class="col-md-7 heading-section text-center ftco-animate">
-                        <span class="subheading">Đội Ngũ Chuyên Gia</span>
-                        <h2>Chuyên Gia Tâm Lý / Nhà Tham Vấn</h2>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-md-4 col-lg ftco-animate d-flex">
-                        <div class="staff bg-primary">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch" style="background-image: url(images/staff-1.jpg);"></div>
-                            </div>
-                            <div class="text pt-3 px-3 pb-4 text-center">
-                                <h3>Dr. Anna Lee</h3>
-                                <span class="position mb-2">Giám Đốc Tâm Lý</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg ftco-animate d-flex">
-                        <div class="staff bg-primary">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch" style="background-image: url(images/staff-2.jpg);"></div>
-                            </div>
-                            <div class="text pt-3 px-3 pb-4 text-center">
-                                <h3>Mark Johnson</h3>
-                                <span class="position mb-2">Chuyên Gia Tâm Lý</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg ftco-animate d-flex">
-                        <div class="staff bg-primary">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch" style="background-image: url(images/staff-3.jpg);"></div>
-                            </div>
-                            <div class="text pt-3 px-3 pb-4 text-center">
-                                <h3>Emily Clark</h3>
-                                <span class="position mb-2">Tư Vấn Tâm Lý</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg ftco-animate d-flex">
-                        <div class="staff bg-primary">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch" style="background-image: url(images/staff-4.jpg);"></div>
-                            </div>
-                            <div class="text pt-3 px-3 pb-4 text-center">
-                                <h3>Sarah Brown</h3>
-                                <span class="position mb-2">Chuyên Viên Tâm Lý</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg ftco-animate d-flex">
-                        <div class="staff bg-primary">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch" style="background-image: url(images/staff-5.jpg);"></div>
-                            </div>
-                            <div class="text pt-3 px-3 pb-4 text-center">
-                                <h3>James Wilson</h3>
-                                <span class="position mb-2">Điều Phối Viên Tâm Lý</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="ftco-section ftco-no-pt ftco-no-pb">
             <div class="container">
                 <div class="row d-flex no-gutters">
@@ -273,9 +164,9 @@
                                     <div class="text">
                                         <p class="mb-4">Tôi đã tìm thấy ánh sáng trong những khoảnh khắc tăm tối nhất. Các chuyên gia tại đây đã giúp tôi vượt qua khó khăn và tìm lại bản thân.</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                                            <div class="user-img" style="background-image: url(images/user4.jpg)"></div>
                                             <div class="pl-3">
-                                                <p class="name">Linda Nguyen</p>
+                                                <p class="name">Nguyễn Văn Anh</p>
                                                 <span class="position">Khách Hàng</span>
                                             </div>
                                         </div>
@@ -288,9 +179,9 @@
                                     <div class="text">
                                         <p class="mb-4">Tôi rất cảm kích về sự tận tâm và chuyên nghiệp của đội ngũ. Họ đã giúp tôi khám phá và chữa lành những tổn thương trong tâm hồn.</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                                            <div class="user-img" style="background-image: url(images/user5.jpg)"></div>
                                             <div class="pl-3">
-                                                <p class="name">David Tran</p>
+                                                <p class="name">Vũ Quốc Dũng</p>
                                                 <span class="position">Khách Hàng</span>
                                             </div>
                                         </div>
@@ -303,9 +194,9 @@
                                     <div class="text">
                                         <p class="mb-4">Dịch vụ ở đây thật sự tuyệt vời! Tôi cảm thấy được lắng nghe và thấu hiểu. Điều đó đã tạo ra sự khác biệt lớn trong cuộc sống của tôi.</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                                            <div class="user-img" style="background-image: url(images/user6.jpg)"></div>
                                             <div class="pl-3">
-                                                <p class="name">Emma Hoang</p>
+                                                <p class="name">Trần Văn Hoàng</p>
                                                 <span class="position">Khách Hàng</span>
                                             </div>
                                         </div>
@@ -318,9 +209,9 @@
                                     <div class="text">
                                         <p class="mb-4">Tôi đã có thể vượt qua những rào cản trong tâm lý của mình nhờ vào sự hỗ trợ chân thành của đội ngũ. Tôi thực sự biết ơn!</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                                            <div class="user-img" style="background-image: url(images/user7.jpg)"></div>
                                             <div class="pl-3">
-                                                <p class="name">Michael Pham</p>
+                                                <p class="name">Dương Tuấn Anh</p>
                                                 <span class="position">Khách Hàng</span>
                                             </div>
                                         </div>
@@ -333,9 +224,9 @@
                                     <div class="text">
                                         <p class="mb-4">Trải nghiệm của tôi thật tuyệt vời. Đội ngũ đã giúp tôi xây dựng lại sự tự tin và tìm thấy hạnh phúc.</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                                            <div class="user-img" style="background-image: url(images/user8.jpg)"></div>
                                             <div class="pl-3">
-                                                <p class="name">Sophia Bui</p>
+                                                <p class="name">Nguyễn Thị Thủy</p>
                                                 <span class="position">Khách Hàng</span>
                                             </div>
                                         </div>
@@ -389,7 +280,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 ftco-animate">
-                        <div class="work img d-flex align-items-center" style="background-image: url(images/work-4.jpg);">
+                        <div class="work img d-flex align-items-center" style="background-image: url(images/R.jpg);">
                             <a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
@@ -425,7 +316,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 ftco-animate">
-                        <div class="work img d-flex align-items-center" style="background-image: url(images/work-7.jpg);">
+                        <div class="work img d-flex align-items-center" style="background-image: url(images/OIP.jpg);">
                             <a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
                                 <span class="fa fa-expand"></span>
                             </a>
@@ -463,49 +354,49 @@
                 <div class="row d-flex">
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
+                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/6.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/user8.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>Được đăng bởi Admin</span>
                                         <span>9 Tháng 10, 2024</span>
                                     </div>
                                 </div>
-                                <h3 class="heading"><a href="#">Những điều mỗi người nên biết về phục hồi tâm lý</a></h3>
+                                <h3 class="heading"><a href="#">Điều Cần Biết Về Phục Hồi Tâm Lý Sau Chấn Thương</a></h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
+                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/7.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/user8.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>Được đăng bởi Admin</span>
                                         <span>11 Tháng 10, 2024</span>
                                     </div>
                                 </div>
-                                <h3 class="heading"><a href="#">Hướng dẫn cách vượt qua trầm cảm</a></h3>
+                                <h3 class="heading"><a href="#">Làm Thế Nào Để Giảm Căng Thẳng Tâm Lý?</a></h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
+                            <a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/9.jpg');">
                             </a>
                             <div class="text mt-3">
                                 <div class="posted mb-3 d-flex">
-                                    <div class="img author" style="background-image: url(images/person_1.jpg);"></div>
+                                    <div class="img author" style="background-image: url(images/user8.jpg);"></div>
                                     <div class="desc pl-3">
-                                        <span>Được đăng bởi Nguyễn Đức Minh</span>
+                                        <span>Được đăng bởi Admin</span>
                                         <span>12 Tháng 10, 2024</span>
                                     </div>
                                 </div>
-                                <h3 class="heading"><a href="#">Tầm quan trọng của tư vấn tâm lý trong xã hội hiện đại</a></h3>
+                                <h3 class="heading"><a href="#">Tác Động Của Tâm Lý Đến Sức Khỏe Thể Chất</a></h3>
                             </div>
                         </div>
                     </div>

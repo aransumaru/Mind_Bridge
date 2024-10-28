@@ -97,9 +97,6 @@
                 <li class="nav-item <%= currentPage.equals(aboutPage) ? "active" : "" %>">
                     <a href="about" class="nav-link">Giới Thiệu</a>
                 </li>
-                <li class="nav-item <%= currentPage.equals(teamPage) ? "active" : "" %>">
-                    <a href="team.jsp" class="nav-link">Đội Ngũ</a>
-                </li>
                 <li class="nav-item <%= currentPage.equals(servicesPage) ? "active" : "" %>">
                     <a href="services.jsp" class="nav-link">Dịch Vụ</a>
                 </li>
