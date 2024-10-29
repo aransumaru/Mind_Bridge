@@ -11,7 +11,7 @@
         <!-- end navigation -->
         <!-- END nav -->
 
-        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/logo1.jpg');" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text align-items-end">
@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-lg-8 ftco-animate">
                         <p>
-                            <img src="images/image_1.jpg" alt="" class="img-fluid">
+                            <img src="images/6.jpg" alt="" class="img-fluid">
                         </p>
                         <h2 class="mb-3">Điều Cần Biết Về Phục Hồi Tâm Lý Sau Chấn Thương</h2>
                         <p>Phục hồi tâm lý sau chấn thương là một quá trình quan trọng giúp nạn nhân vượt qua những tổn thương tâm lý và cảm xúc do trải nghiệm đau thương. Chấn thương có thể xuất phát từ nhiều nguyên nhân khác nhau như tai nạn, bạo lực, hoặc thiên tai. Dưới đây là một số điểm cần lưu ý trong quá trình phục hồi:</p>
@@ -51,7 +51,7 @@
 
                         <div class="about-author d-flex p-4 bg-light">
                             <div class="bio mr-5">
-                                <img src="images/person_1.jpg" alt="Hình ảnh placeholder" class="img-fluid mb-4">
+                                <img src="images/user8.jpg" alt="Hình ảnh placeholder" class="img-fluid mb-4">
                             </div>
                             <div class="desc">
                                 <h3>Admin</h3>
@@ -63,7 +63,7 @@
                             <ul class="comment-list">
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_1.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/user1.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>Trần Văn Bình</h3>
@@ -75,7 +75,7 @@
 
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_2.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/user2.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>Nguyễn Thị Dung</h3>
@@ -87,7 +87,7 @@
 
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_3.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/user3.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>Phạm Minh Duẩn</h3>

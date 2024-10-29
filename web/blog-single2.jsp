@@ -11,7 +11,7 @@
         <!-- end navigation -->
         <!-- END nav -->
 
-        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/logo1.jpg');" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text align-items-end">
@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-lg-8 ftco-animate">
                         <p>
-                            <img src="images/image_2.jpg" alt="" class="img-fluid">
+                            <img src="images/7.jpg" alt="" class="img-fluid">
                         </p>
                         <h2 class="mb-3">Làm Thế Nào Để Giảm Căng Thẳng Tâm Lý?</h2>
                         <p>Căng thẳng tâm lý là một phần không thể tránh khỏi trong cuộc sống hàng ngày. Tuy nhiên, việc quản lý và giảm bớt căng thẳng là rất quan trọng để duy trì sức khỏe tâm thần. Dưới đây là một số cách hiệu quả để giảm căng thẳng tâm lý:</p>
@@ -52,7 +52,7 @@
 
                         <div class="about-author d-flex p-4 bg-light">
                             <div class="bio mr-5">
-                                <img src="images/person_1.jpg" alt="Hình ảnh placeholder" class="img-fluid mb-4">
+                                <img src="images/user8.jpg" alt="Hình ảnh placeholder" class="img-fluid mb-4">
                             </div>
                             <div class="desc">
                                 <h3>Admin</h3>
@@ -64,7 +64,7 @@
                             <ul class="comment-list">
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_2.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/user4.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>Nguyễn Văn An</h3>
@@ -76,7 +76,7 @@
 
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_3.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/user5.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>Trần Thị Bình</h3>
@@ -88,7 +88,7 @@
 
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_4.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/user6.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>Phạm Minh Cung</h3>
@@ -100,7 +100,7 @@
 
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="images/person_5.jpg" alt="Hình ảnh placeholder">
+                                        <img src="images/user7.jpg" alt="Hình ảnh placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>Nguyễn Văn Duẩn</h3>
